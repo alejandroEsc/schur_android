@@ -1,4 +1,4 @@
-
+Schur Group Theory Software
 ![alt text][logo]
 
 [logo]: https://github.com/alejandroEsc/schur_android/blob/master/images/newschur2.jpg

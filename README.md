@@ -1,7 +1,7 @@
 
 ![alt text][logo]
 
-[logo]: https://github.com/alejandroEsc/schur_android/images/newschur2.jpg
+[logo]: https://github.com/alejandroEsc/schur_android/blob/master/images/newschur2.jpg
 
 # Description
 This is SCHUR, an interactive program for calculating properties of Lie

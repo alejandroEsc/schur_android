@@ -1,0 +1,6 @@
+ SB_Qfn
+     Format:-Sb_Q [TRUE|FALSE]
+      Modes:-SFN
+ Description:-If Sb_Q is set TRUE then any partitions entered
+             in the SFNMode will be standardised as if they
+             were Q-functions. The default value is FALSE.

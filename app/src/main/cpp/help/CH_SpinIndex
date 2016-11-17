@@ -1,0 +1,25 @@
+ CH_SpinIndex
+     Format:-Ch_S gr grN EXPR (DPM)
+             Ch_S EXPR        (REP)
+      Modes:-DPM, REP
+ Description:-Ch_S deletes the spin index s in a rep [s;a]
+             to give [a], and inserts a spin index s in 
+	     any tensor rep [a] to give [s;a]. This may be useful in setting up functions, 
+	     however please note that this command deletes any + or - labels. 
+    Example:-DP>
+           ->gr2so8su4
+             Groups are SO(8) * SU(4)
+             DP>
+           ->ch_s gr1 [s31+ * 21] + [21 * 321]
+             [31]{21} + [s;21]{321}
+             DP>
+	   ->rep
+	     REP mode
+	     Group is SO(8)
+             REP>
+           ->gr so7
+             Group is SO(7)
+             REP>
+           ->ch_s 321+s31^2
+             [s;321] + [31^2]
+	     REP>

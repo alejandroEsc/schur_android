@@ -1,0 +1,20 @@
+ MULT_List
+     Format:-MULT_L EXPR
+      Modes:-SFN
+ Description:-If EXPR generates a list of S-functions then the command
+             MULT_List creates a table of the multiplicities and the
+             number of terms having that multiplicity. See also
+             MULT_Select.
+    Example:-SFN>
+           ->setsv1 o 321,321
+	SFN>
+           ->mult_l sv1
+	Mult =	1 Number of Terms =	18
+	Mult =	2 Number of Terms =	 7
+	Mult =	3 Number of Terms =	 6
+	Mult =	4 Number of Terms =	 3
+	SFN>
+           ->mult_s 4 sv1 t
+	4{5421} + 4{5321^2} + 4{432^2 1}
+	SFN>
+

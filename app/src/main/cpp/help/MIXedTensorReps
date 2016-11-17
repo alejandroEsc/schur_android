@@ -1,0 +1,26 @@
+ MIXedTensorReps
+     Format:-[Conv_s_to_r mix EXPR1,EXPR2] (DPM)
+              Conv_s_to_r mix EXPR1,EXPR2  (REP)
+      Modes:-DPM, REP
+ Description:-This command is used in conjunction with the command
+             CONV_S_TO_Rep and is used to combine two Sfn expressions
+             to produce mixed tensor reps of SU(n) or U(n). Mixed tensor
+             reps are of the form {a;b} and are always entered by placing
+             a semicolon `;' between the partition entries for a and b.
+    Example:-DP>
+           ->gr2u6u4
+	Groups are U(6) * U(4)
+	DP>
+           ->[conv_s_to_r mix 32,421 * conv_s_to_r mix 1,21]
+	{32;421}{1;21}
+	DP>
+	   ->repm
+	REP mode
+	Group is U(6)
+	REP>
+	   ->gr su6
+	Group is SU(6)
+	REP>
+           ->conv_s_to_r mix 32+2.21,43-2^3
+	{32;43} - {32;2^3} + 2{21;43} - 2{21;2^3}
+	REP>

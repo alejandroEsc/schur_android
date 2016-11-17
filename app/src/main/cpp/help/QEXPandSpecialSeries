@@ -1,0 +1,18 @@
+ QEXPand
+     Format:- Qexp EXPR
+      Modes:-SFN
+ Description:-Gives a polynomial expansion of the first SETLIMit terms in
+             powers of q of the sum of all S-functions in EXPR with their
+	     variables specialised to (1,q,q^2,...)
+    Example:-SFN>
+           ->qexp 21
+	q +2q^2 +3q^3 +5q^4 +7q^5 +9q^6 +12q^7 +15q^8 +18q^9 +22q^10 
+	+26q^11 +30q^12
+	{21}
+	SFN>
+	   ->setlim 8
+	SFN>
+	   -> qexp 0-3.1^2+21
+	1 -2q -q^2 -3q^3 -q^4 -2q^5 +3q^8
+	{0} - 3{1^2} + {21}
+	SFN>

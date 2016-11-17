@@ -1,0 +1,5 @@
+ SETRVar
+     Format:- SetRV N, EXPR
+      Modes:-REP
+ Description:-Defines Rep Variable N ( RVar N, N = 1...50) to be EXPR. See also
+ 	      RVar command.

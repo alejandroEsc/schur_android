@@ -1,0 +1,15 @@
+ INDEXsequence
+     Format:-INDEX INTEGERS
+      Modes:-SFN
+ Description:-INDEX acts on a sequence of positive integers to produce
+             a new sequence known as the Index of the Sequence. If the
+             members of the sequence are a(r) r = 1,2 ...,N then the
+             index i(r) is defined as the number of integers in the
+             sequence lying to the left of a(r) which are equal to a(r),
+             including a(r) itself, minus the number of integers lying
+             to the left of a(r) which are equal to a(r) - 1.
+    Example:-SFN>
+           ->index111223324
+		{123-2-1^2 0^2 -1}
+
+             SFN>

@@ -1,0 +1,7 @@
+ SB_More
+     Format:-Sb_M [TRUE|FALSE]
+      Modes:-DPM, REP, SFN
+ Description:-Sb_M is a Boolean which once set acts within all modes. If
+             Sb_M FALSE is entered the screen freely scrolls while if
+             Sb_M TRUE is entered the screen is filled and awaits a 
+             keypress to give more output. The default is set as FALSE.

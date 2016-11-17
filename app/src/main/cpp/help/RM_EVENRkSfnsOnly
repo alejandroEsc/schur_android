@@ -1,0 +1,9 @@
+ RM_EVENRkSfnsOnly
+     Format:-Rm_EvenR EXPR
+      Modes:-SFN
+ Description:-Removes all partitions from EXPR whose Frobenius rank is even.
+    Example:-
+             SFN>
+           ->rm_evenr {1} + {2} + {21} + {42}
+             {21} + {2} + {1}
+             SFN>

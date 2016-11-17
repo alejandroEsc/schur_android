@@ -1,0 +1,5 @@
+ END
+     Format:- End
+      Modes:- DPM, REP, SFN
+ Description:-Ends the current session. Closes and saves any LOGfiles
+             still open.

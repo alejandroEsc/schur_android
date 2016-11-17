@@ -1,0 +1,14 @@
+ RM_EVENPARTS
+
+     Format:- RM_EVENPARTS List
+      Modes:- SFN
+ Description:- Removes from List all S-functions involving at least one even 
+              part.    
+    Example:-SFN>
+          ->o21,21
+	{42} + {41^2} + {3^2} + 2{321} + {31^3} + {2^3} + {2^2 1^2}
+	SFN>            
+          ->rm_evenparts last
+	{3^2} + {31^3}
+	SFN>  
+

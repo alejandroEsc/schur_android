@@ -1,0 +1,8 @@
+ SERiesToIntWt
+     Format:-Ser INTEGER SERIES 
+      Modes:-SFN
+ Description:-Finds all the members of the SFN Series of weight <= INTEGER.
+    Example:- SFN>
+           ->ser 4 m
+	{4} + {3} + {2} + {1} + {0}
+	SFN>

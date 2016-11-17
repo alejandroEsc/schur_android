@@ -1,0 +1,18 @@
+ ASSOCiate
+     Format:-ASSOC EXPR (REP)
+             ASSOC GRNO EXPR (DPM)
+      Modes:-REP, DPM
+ Description:-ASSOCiate replaces every irrep in EXPR by its associate.
+             It is assumed that the group has been set as Sp(2n,R) or
+             O(n) - other settings will give an error message. See also
+             SPONModify. Notice that some representations are self-associate.
+    Example:-REP>
+           -> gr spr8
+	Group is Sp(8,R)
+	REP>
+	   -> assoc 3.2;53+2.2;511+2;5
+	3<2(53)> + <2(5)># + 2<2(5)>
+	REP>
+	   -> sponm last
+	3<2(53)> + 3<2(5)>
+	REP>

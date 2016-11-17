@@ -1,0 +1,6 @@
+ LINES
+     Format:-LINES INTEGER
+      Modes:-DPM, REP, SFN
+ Description:-Sets the number of lines for output. The default value
+             has been set at 50. This command is obsolete, the number 
+             of lines is given by the terminal itself.

@@ -1,0 +1,10 @@
+ SAMEwtSfnList
+     Format:- Same Sfn
+      Modes:-SFN
+ Description:-Creates a list of all S-functions which have the same
+             weight as Sfn.
+    Example:-
+             SFN>
+           ->same 4
+             {4} + {31} + {2^2} + {21^2} + {1^4}
+	     SFN>

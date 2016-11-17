@@ -1,0 +1,10 @@
+ O_QfnProduct
+     Format:- O_Q EXPR1,EXPR2
+      Modes:- SFN
+ Description:-Forms the outer product of two lists of Q-functions.
+    Example:-SFN>
+           ->o_q 321+2.1,42-3.2
+	4Q_{741} + 4Q_{732} + 4Q_{651} + 8Q_{642} + 2Q_{6321} + 4Q_{543} 
+	+ 2Q_{5421} - 6Q_{521} + 4Q_{52} - 6Q_{431} + 4Q_{43} + 2Q_{421} 
+	- 12Q_{3} - 6Q_{21}
+	SFN>

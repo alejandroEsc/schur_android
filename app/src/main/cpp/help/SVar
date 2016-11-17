@@ -1,0 +1,5 @@
+ SVar
+     Format:-Sv N
+      Modes:-SFN
+ Description:-Contains the Sfn variable N, (N = 1...50), set with
+             SETSVar. Used as an Sfn when required.

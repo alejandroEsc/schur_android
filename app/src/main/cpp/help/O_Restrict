@@ -1,0 +1,12 @@
+ O_Restrict
+     Format:-O_Restrict INTEGER EXPR1,EXPR2
+      Modes:- SFN
+ Description:-Evaluates the S-function outer product of EXPR1 and EXPR2 using
+             the Littlewood-Richardson rule but with the maximum number of
+	     parts of each partition being restricted to INTEGER.
+     Example:-SFN>
+	     ->o_r 3 32-2.21,21+3.1^2
+	{53} + {521} + {4^2} + 2{431} + 3{43} + {42^2} + 3{421} - 2{42} 
+	- 2{41^2} + {3^2 2} + 3{3^2 1} - 2{3^2} - 4{321} - 6{32} - 6{31^2} 
+	- 2{2^3} - 6{2^2 1}
+	SFN>

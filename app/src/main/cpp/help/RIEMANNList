@@ -1,0 +1,9 @@
+ RIEMANNList
+     Format:-RiemannL N
+      Modes:-SFN
+ Description:-Creates a list of S-functions corresponding to the partitions
+             of the integer N with no parts = 1.
+    Example:- SFN>
+           ->riemannl 8
+	{8} + {62} + {53} + {4^2} + {42^2} + {3^2 2} + {2^4}
+	SFN>

@@ -1,0 +1,6 @@
+ SB_LISToutput
+     Format:-sb_list [TRUE|FALSE]
+      Modes:-REP, SFN
+ Description:-Setting  SB_LIST to TRUE forces variable saving (see SAVEsetVar)
+             to be in a Maple compatible format. The default is FALSE. Warning: for
+	     the moment this format cannot be read by SCHUR.

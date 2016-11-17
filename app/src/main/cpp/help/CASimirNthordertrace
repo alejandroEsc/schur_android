@@ -1,0 +1,17 @@
+ CAsimirNthOrderTrace
+     Format:-CA INTEGER EXPR
+      Modes:-REP
+ Description:-Computes the trace of the INTEGER-th order Casimir invariant
+	     with respect to the adjoint representation of the set group.
+	     This command is available for all the compact semisimple Lie
+             groups.
+    Example:-REP>
+           ->gr sp6
+             Group is Sp(6)
+             REP>
+           ->casimirn 2 2
+             16**1*trace 2th order Casimir invariant is 16
+             REP>
+           ->casimirn 3 2
+             16**2*trace 3th order Casimir invariant is -64
+             REP>

@@ -1,0 +1,13 @@
+ RULE
+    Formats:- Rule EXPR  Sum Operations  With
+              Rule EXPR1 Sum MyList Operations  With EXPR2
+              Rule EXPR1 Operation  With EXPR2
+      Modes:-DPM
+ Description:-RULE makes use of the DPrep structure by allowing
+             S-function operations on the partitions labelling the
+             representations of the component groups. This is the most
+             complex, and also most powerful, command in SCHUR  and is
+             fully discussed in the Advanced Tutorial:Using Rule. Use
+             of this command should not be attempted until the user
+             has become familiar with most of the commands and structures
+             in SCHUR.

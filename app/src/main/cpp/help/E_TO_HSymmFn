@@ -1,0 +1,11 @@
+ E_TO_HsymmFn
+     Format:-E_To_H EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of elementary symmetric functions
+             e_{\lambda} and transforms them into a list of homogeneous
+             symmetric functions h_{\mu}.
+    Example:-
+             SFN>
+           ->e_to_h 21
+             - h_{21} + h_{1^3}
+             SFN>

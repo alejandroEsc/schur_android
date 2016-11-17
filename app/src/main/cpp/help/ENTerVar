@@ -1,0 +1,14 @@
+ ENTerVar
+     Format:- Ent OPERATION comment
+      Modes:-DPM, REP, SFN
+ Description:-Use of this line in a function allows the user to
+             input data to the function while it is being executed.
+             SVar N requires the user to input Sfn variable N and
+             is available in the DPM, REP and SFN modes.  RVar N
+             requires the user to input rep variable N and is
+             available in DPM and REP modes.  Var N requires the
+             user to input DPrep N and is available in the DPM mode.
+             GRoup requires the user to enter the groups the function
+             requires in the same format as for the GRoup command,
+             (see  GRoup). 'comment' is any text you wish that
+             may be helpful to the user of the function.

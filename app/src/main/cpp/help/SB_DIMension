@@ -1,0 +1,8 @@
+ SB_DIMension
+	Format:- Sb_Dim [TRUE|FALSE]
+	Modes:- SFN,REP,DPM
+    Description:- Sb_Dim is a Boolean whose default value has been set as
+          TRUE which permits the command  DIMension to calculate the
+          dimensions of representations using the Weyl formulae. Setting
+          Sb_Dim FALSE permits the command DIMension to calculate the
+          corresponding dimensions using the hooklength formulae.

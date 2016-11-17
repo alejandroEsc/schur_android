@@ -1,0 +1,18 @@
+ INSertPartitionIntoSfn
+     Format:- Ins PARTITION, EXPR
+      Modes:- SFN
+ Description:-Inserts the PARTITION together with trailing 0's if required,
+	      in front of every member of EXPR without standardising the new expression.
+    Example:-SFN>
+           ->ins 62,-43+2.321+21
+	- {6243} + 2{62321} + {62^2 1}
+	SFN>
+	    ->std last
+	{63^3} + {62^2 1}
+	SFN>
+           ->ins 6200,64
+	{620^2 64}
+	SFN>
+           ->std last
+	- {63^2 2^3}
+	SFN>

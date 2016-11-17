@@ -1,0 +1,11 @@
+ RD_RAISEInverseOp
+      Format:-RD_RAISEI s,EXPR (s = +/- 1)
+       Modes:-SFN
+ Description:-As for RAISEInverseOp except for reduced notation.
+     Example:-SFN>
+           ->rd_raisei 1,21
+	<3> + <21> + 2<2> + <1^2> + 2<1> + <0>
+	SFN>
+	   ->rd_raisei -1,21
+	- <3> + <21> - <1^2> + <0>
+	SFN>

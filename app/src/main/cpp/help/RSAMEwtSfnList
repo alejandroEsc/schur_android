@@ -1,0 +1,10 @@
+ RSAMEwtSfnList
+     Format:- RSAME Sfn
+      Modes:-SFN
+ Description:-Creates a list of all S-functions which have the same
+             weight as Sfn and in reverse-lexicographic order less
+             than or equal to Sfn.
+    Example:- SFN>
+           ->rsame 321
+	{321} + {31^3} + {2^3} + {2^2 1^2} + {21^4} + {1^6}
+	SFN>

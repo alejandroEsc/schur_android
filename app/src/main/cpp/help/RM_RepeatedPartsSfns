@@ -1,0 +1,11 @@
+ Rm_RepeatedPartsSfns
+     Format:-Rm_R EXPR
+      Modes:-SFN
+ Description:-Removes from the EXPR all S-functions involving repeated parts.
+    Example:- SFN>
+           ->321^3+2.321+21+2+ 1^2 + 0
+	{321^3} + 2{321} + {21} + {2} + {1^2} + {0}
+	SFN>
+           ->rm_r last
+	2{321} + {21} + {2} + {0}
+	SFN>

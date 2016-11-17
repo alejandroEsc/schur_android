@@ -1,0 +1,19 @@
+ HSTDList
+     Format:- HSTDL EXPR 
+      Modes:- REP
+ Description:- HSTDList is a Boolean that gives the result as "True" 
+              if the list of all reps in EXPR contains only highly standard 
+              irreps of the group Sp(2n,R) or SO*(2n). For all other 
+              groups an error mesage results. If EXPR contains any non-highly
+	      standard irreps the result is "False". See also HSTD.
+      Example:-REP>
+             ->gr spr6
+               Group is Sp(6,R)
+               REP>
+             ->hstdl 3;21 + 4;22
+               highlystandard list =true
+               REP>            
+             ->hstdl 3;21 + 4;22 + 2;32
+               highlystandard list =false
+               REP> 
+    

@@ -1,0 +1,27 @@
+ MULT_SPlitIntoTwoLists
+     Format:- Mult_Sp EXPR
+      Modes:-SFN
+ Description:-This command takes the EXPR and saves all the terms with odd
+             coefficients as SVar17 and those with even coefficients as
+	     SVar18. Sometimes useful when working with memory restrictions.
+    Example:-SFN>
+	  ->o 31,22-21
+	{53} + {521} - {52} - {51^2} + {431} - {43} + {42^2} + {421^2} 
+	- 2{421} - {41^3} + {3^2 2} - {3^2 1} + {32^2 1} - {32^2} 
+	- {321^2}
+	SFN>
+	  -> mult_sp last
+	SFN>
+	  -> status
+	digits:T reverse:F more:F TeX:F debug:F setlimit:12 pwt:201 logging:F
+	     .........10........20........30........40........50
+	 fns:_________._________._________._________._________.
+	svar:_________.______78_._________._________._________. Schur Function mode
+	SFN>
+	  -> sv18
+	- 2{421}
+	SFN>
+	  -> sv17
+	{53} + {521} - {52} - {51^2} + {431} - {43} + {42^2} + {421^2} 
+	- {41^3} + {3^2 2} - {3^2 1} + {32^2 1} - {32^2} - {321^2}
+	SFN>

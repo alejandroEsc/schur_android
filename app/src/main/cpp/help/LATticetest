@@ -1,0 +1,11 @@
+ LATticetest
+     Format:-LAT Sequence
+      Modes:-SFN
+ Description:-Sequence is a sequence of positive integers. LATTICE is a
+             boolean that is TRUE if the sequence is a lattice 
+             permutation or FALSE otherwise
+    Example:-SFN>
+           ->lattice1111223324
+             lattice test = true
+                   {1^4 2^2 3^2 24}
+             SFN>

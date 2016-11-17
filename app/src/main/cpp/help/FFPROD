@@ -1,0 +1,23 @@
+ FFPROD
+      Format:-FFPROD EXPR1,EXPR2
+       Modes:-REP
+  Description:-EXPR1 is a list of finite non-unitary irreps of Sp(2n,R) 
+              while EXPR2 is an infinite dimensional unitary irrep.
+              The action of FFPROD is to form the generic product of
+              EXPR1 x EXPR2 to give a finite list of unitary irreps of 
+              Sp(2n,R).
+              The group must be set as Sp(2n,R) else an error message is
+              generated. If any term in the intermediateproducts do not 
+              correspond  to a generic product an error message is generated.
+              See also FPROD, GENERIC and COVariant.
+    
+    Example:-REP>
+           ->gr spr6  
+	Group is Sp(6,R)
+	REP>
+          -> ffprod 0;21 ,6;21
+	<8(0)> + <7(3)> + 2<7(21)> + 3<7(1)> + <6(42)> + <6(4)> + <6(3^2)>
+	+ 4<6(31)> + 3<6(2^2)> + 3<6(2)> + 3<6(1^2)> + <6(0)> + <5(52)>
+	+ 2<5(43)> + 2<5(41)> + 4<5(32)> + <5(3)> + 2<5(21)> + <4(53)>
+	+ <4(4^2)> + <4(42)> + <4(3^2)>
+	REP>            

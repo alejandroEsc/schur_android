@@ -1,0 +1,13 @@
+ FN
+     Format:- Fn INTEGER
+      Modes:-DPM, REP, SFN
+ Description:-INTEGER is N. Fn executes function N, N =1,...,50. 
+	  Usually only the result of the last command in function N
+          is ported to the screen. The exceptions are the results of
+	  the PROP, DIM, GRoup and mode change commands. If you wish
+    	  other intermediate results to appear on the screen use the
+	  command SUPpressOutputToScreen at the appropriate place in
+	  your function. N.B. Functions cannot call other functions,
+	  i.e. you may not have Fn N as a line in a function. 
+	  An extensive account of the construction and use of 
+	  functions is given in the Tutorial 7.2.

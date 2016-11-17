@@ -1,0 +1,6 @@
+ CONV_D_TO_Rep
+     Format:-Conv_D_to_R EXPR
+      Modes:-REP
+ Description:-Converts a list of DPreps into a list of REPs.
+             N.B. It is assumed that the DPreps involve just one
+             group else an error message is given. 

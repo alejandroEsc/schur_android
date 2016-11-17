@@ -1,0 +1,17 @@
+ PLG
+     Format:- PLG REP
+      Modes:- REP
+ Description:-The group must be set to be G2. Then PLG acts on a single REP of
+             G2 to produce an EXPR consisting of a list of irreps of G2,
+	     together with appropriate coefficients, such that the plethysm
+	     (10) \otimes EXPR returns just REP.
+    Example:-REP>
+           -> gr g2
+	Group is G(2)
+	REP>            
+           -> plg 21
+	(1^2) - (1)
+	REP>            
+           -> pl 1,last
+	(21)
+	REP> 

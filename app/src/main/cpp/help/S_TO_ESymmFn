@@ -1,0 +1,10 @@
+ S_TO_EsymmFn
+     Format:- S_To_E EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of S-functions and transforms them into
+             a list of elementary symmetric functions e_{\mu}.
+    Example:-
+             SFN>
+           ->s_to_e 21
+             - e_{3}  + e_{21}
+	     SFN>

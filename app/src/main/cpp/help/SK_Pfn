@@ -1,0 +1,9 @@
+ SK_Pfn
+     Format:-Sk_P EXPR1, EXPR2
+      Modes:-SFN
+ Description:-Forms the skew product of two lists of P-functions.
+    Example:-
+             SFN>
+           ->sk_p 4321,32
+             P_{41}
+             SFN>

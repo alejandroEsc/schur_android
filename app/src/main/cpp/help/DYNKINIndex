@@ -1,0 +1,21 @@
+ DYNKINIndex
+     Format:-DynkinI EXPR
+      Modes:-REP
+ Description:-Computes the total second order Dynkin index for the
+             irreps in EXPR. See also the entry for the command  PROP.
+             The normalisation is chosen to give the dynkin index a value
+             of 1 for the fundamental irrep of the group.
+    Example:-
+             REP>
+           ->gr e8
+             Group is E(8)
+  	     REP>
+           ->dynkini 21^7
+             2nd-dynkin = 1
+             REP>
+           ->dynkini 21
+             2nd-dynkin = 25
+             REP>
+           ->dynkini 21^7 +2.21
+             2nd-dynkin = 51
+             REP>

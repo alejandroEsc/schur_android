@@ -1,0 +1,13 @@
+ RIB_TO_S
+     Format:-RIB_TO_S EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of parts of a ribbon Schur function,
+             which is then evaluated as a skew Schur function and expressed
+             as a list of Schur function.
+    Example:-SFN>
+           ->rib_to_s 312
+	{41^2} + {321}
+	SFN>
+           ->rib_to_s 123
+	{42} + {41^2} + {321}
+	SFN>

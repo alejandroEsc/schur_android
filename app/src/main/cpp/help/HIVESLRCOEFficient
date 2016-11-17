@@ -1,0 +1,13 @@
+ HIVESLRCOEFficient
+
+     Format:-HIVESLRCOEFficient SFN1, SFN2, SFN3, [dilatation, [displayResults]]
+      Modes:-SFN
+ Description:-Computes the Littlewood-Richardson coefficient by the hives 
+	    method lambda=SFN1 , mu=SFN2, nu=SFN3. dilatation is an optionnal 
+            integer by default equal to 1. displayResults is a boolean,
+	    set as FALSE by default.
+    Example:-SFN>
+	->HIVESLRCOEF 21,21,321,4
+	Littlewood Richardson Coefficient = 5
+	SFN>
+

@@ -1,0 +1,38 @@
+ CONV_S_TO_Rep
+     Format:-Conv_S_to_R OPERATION(s) EXPR
+      Modes:-REP, DPM
+ Description:-Converts an S-function EXPR to REP form.  default = direct 
+ 	     transfer a -> {a}
+             SPin EXPR adds a spin label to EXPR, a -> [s;a]
+             MIXedTensorReps EXPR1,EXPR2 forms a mixed tensor a,b -> {a;b}
+             LABel CHAR adds a one character label CHAR to EXPR as in SO(2k) 
+	     (e.g. a -> [a]+)
+             More than one operation may be used at a time. The hierachy is 
+	     SPin, LABel, MIXedTensorReps.
+             The resulting irreps may not be in standard form in which case
+	     the command STD should be used. The command may be used for an
+	     appropriately set group in either REP or DPMode. In the case of
+	     the latter this command may be applied to one or more groups.
+    Example:-REP>
+           ->gr so6
+	Group is SO(6)
+	REP>
+           ->conv_s_to_r spin label - outer2,1
+	[s;3]- + [s;21]-
+	REP>
+           ->gr u5
+	Group is U(5)
+	REP>
+           ->Conv_s_to_r mixed 21,31
+	{21;31}
+	REP>
+	   -> dpm
+	DPrep Mode (with function)
+  	Group is U(5)
+	DP>
+	   -> gr3 u5sp4so6
+	Groups are   U(5) * Sp(4) * SO(6)
+	DP>
+	   -> [conv_s_to_r mixed 21,31*43*conv_s_to_r spin label - o2,1]
+	{21;31}<43>[s;3]- + {21;31}<43>[s;21]-
+	DP>

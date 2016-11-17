@@ -1,0 +1,16 @@
+ CANcelDatFile
+     Format:-CAN INTEGER
+      Modes:-DPM, REP, BRM
+ Description:-Used to delete the *.DAT file called in connection with certain
+      branching rules and products. Assists in the conservation of heap space.
+    Example:-DP>
+           ->gr e8
+             Group is E(8)
+  	     DP>
+           ->br50gr1[21^7]
+	     Group is SO(16)
+             [1^2] + [s;0]+
+             DP>
+           ->can 50
+             DP>
+

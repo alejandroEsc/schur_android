@@ -1,0 +1,13 @@
+QSAME
+     Format:-QSAME qfn1,qfn2
+      Modes:-SFN
+ Description:- qfn1,qfn2 are Q-functions specified by partitions. QSAME
+              produces a list of Q-functions that could but do not
+	      necessarily arise in the Q-function product qfn1.qfn2. Most
+	      "dead" partitions have been removed from the list. See also DEAD.
+    Example:-SFN>
+           ->qsame 32,765431
+	Q_{10 85431} + Q_{10 76431} + Q_{10 75432} + Q_{10 654321} 
+	+ Q_{986431} + Q_{985432} + Q_{976531} + Q_{976432} + Q_{9754321} 
+	+ Q_{876541} + Q_{876532} + Q_{8764321}
+	SFN>

@@ -1,0 +1,12 @@
+ NLambda
+     Format:-NLambda SFN
+       Modes:- SFN
+ Description:- For each SFN specified by a partition lambda, NL evaluates the
+             parameter n(lambda) which is the sum of the numbers obtained by
+	     inserting 0 into each box of the first row of the frame specified
+	     by lambda, 1 into each box of the second row, and so on until the
+             last row.
+     Example:-SFN>
+              ->nlambda 43221
+	nlambda =         17
+	SFN>

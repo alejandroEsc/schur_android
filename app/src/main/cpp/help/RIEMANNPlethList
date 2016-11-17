@@ -1,0 +1,14 @@
+ RIEMANNPlethList
+     Format:-RiemannP N
+      Modes:-SFN
+ Description:-A list of S-functions is formed as for  RiemannL N
+             and then the operation  RiemannP is performed on that list.
+             The operation RiemannP is related to a problem posed by
+             S. A. Fulling in relationship to the determination of the
+             independent scalars that can be formed by contraction
+             of the Riemann tensor and its covariant derivatives.
+    Example:- SFN>
+           ->riemannp 6
+	{6^2} + {642} + 2{64} + {62^3} + 2{62^2} + {62} + {4^3} 
+	+ 2{4^2 2^2} + 2{4^2 2} + {42^4} + 2{42^3} + {2^6}
+	SFN>

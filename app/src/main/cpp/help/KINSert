@@ -1,0 +1,23 @@
+KINSert
+     Format:- KINS INTEGER gr grN EXPR  (DPM)
+              KINS INTEGER EXPR         (REP)
+      Modes:- REP, DPM
+ Description:- Use restricted to reps of the groups Sp(2n,R) and SO^*(2n).
+              Replaces the integer k in <k(\lambda)> or [k(\lambda)] by INTEGER.
+              In the case of harmonic reps of Sp(2n,R) the spin index s is left
+              unchanged. It may be changed using the command ch_spin. 
+    Example:- DP>
+            -> gr spr8
+              Group is Sp(8,R)
+              DP>
+            -> [s2;21]
+              <s2(21)>
+              DP>
+            -> kins 3 gr1 last
+              <s3(21)>
+              DP>
+            -> ch_spin gr1 last
+              <3(21)>
+              DP>
+ 
+

@@ -1,0 +1,15 @@
+ HCLASS
+      Format:- HCLASS EXPR
+       Modes:- SFN
+ Description:- Used in place of CLASS to record the number of elements of 
+	      the class of S(N) specified by each partition in EXPR in 
+	      those cases for which their might be an integer overflow. 
+	Example:-SFN>
+		-> class !15 5 
+	- 543424512{15 5} 
+		 SFN> 
+		-> hclass !15 5   
+	Number of elements in the class = 
+	32438693442355200 
+		 SFN> 
+

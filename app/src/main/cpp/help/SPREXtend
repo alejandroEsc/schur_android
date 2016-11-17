@@ -1,0 +1,22 @@
+ SPREXtend
+     Format:-SPREX  EXPR1
+      Modes:-REP
+ Description:-Takes a set of Sp(2n,R) irreps and extends the partitions
+             labelling the irreps to yield new standard irreps of Sp(2n,R)
+             such that if the appropriate O(k) modification rules were
+             applied the original irreps would be restored to within an
+             associate label '#' which is suppressed. See also ASSOCiate
+             and SPONModify. NB. The group must be set as Sp(2n,R) - other
+             group settings will produce an error message.
+
+    Example:-REP>
+           -> gr spr8
+              Group is Sp(8,R)
+             REP>
+           -> 2;0 + 2;2 + 2;2^2
+              <2(0)> + <2(2)> + <2(2^2)>
+             REP>
+           -> sprex last
+              <2(2^2)> + <2(21^2)> + <2(1^4)> 
+             REP>
+

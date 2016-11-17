@@ -1,0 +1,19 @@
+ D_TO_Plabel 
+     Format:-D_to_P DYNKIN_LABEL
+      Modes:-REP
+ Description:-Converts the partition labels for the irreps in EXPR to Dynkin
+             labels. The group must first be set to be one of the simple Lie
+	     groups: SU(n), SO(n), Sp(2n), E6, E7, E8, F4 or G2.
+    Example:-REP>
+           ->gr g2
+	Group is G(2)
+	REP>
+	   ->d_to_p 12
+	<<partition>> (41)
+	REP>
+	  -> gr e8
+	Group is E(8)
+	REP>
+          -> d_to_p 021+2.10^61
+	<<partition>> (10 3^5 2) + 2(51^7)
+	REP>

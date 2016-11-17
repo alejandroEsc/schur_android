@@ -1,0 +1,26 @@
+ PROPertyOfRepList
+     Format:- Prop EXPR
+      Modes:- REP
+ Description:-Computes dimensions, second order Casimir and Dynkin indices and
+             Dynkin labels for irreps for the set groups. The available groups
+	     are those listed in Table A.4 of the SCHUR manual.
+	     Notice that the eigenvalue of the second order Casimir operator
+	     is only given in those cases for which EXPR is a single REP, with
+	     or without multiplicity. 
+    Example:- REP>
+           ->gr e8
+	Group is E(8)
+	REP>
+           ->prop21^7
+	<dynkin label> (10000000)
+	dimension = 248   60*2nd-casimir=60
+	2nd-dynkin = 1
+	REP>
+           ->prod21^7,21^7
+	(42^7) + (31^6) + (21^7) + (21) + (0)
+	REP>
+           ->prop last
+	<dynkin label> (20000000) +(01000000) +(10000000) +(00000010) 
+	+(00000000)
+	dimension = 61504          2nd-dynkin = 496
+	REP>

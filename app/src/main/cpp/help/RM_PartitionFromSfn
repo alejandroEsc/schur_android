@@ -1,0 +1,16 @@
+ RM_PartitionFromSfn
+     Format:-Rm_P PARTITION, EXPR
+      Modes:-SFN
+ Description:-Removes the PARTITION from each member of the EXPR.
+             The inverse of the command  ATtachPartitionToSfn.
+   Examples:-
+             SFN>
+           -> rm_p 21,52
+             {31}
+             SFN>
+           -> rm_p 21,41^2
+             {201}
+             SFN>
+           ->std rm_p 21,41^2
+             zero
+             SFN>

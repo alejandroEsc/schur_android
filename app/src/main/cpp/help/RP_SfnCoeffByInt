@@ -1,0 +1,13 @@
+ RP_SfnCoeffByInt
+     Format:-Rp_S INTEGER EXPR
+      Modes:-SFN
+ Description:-Returns EXPR with every coefficient replaced by the same
+             INTEGER which must not be zero
+    Example:-
+             SFN>
+           ->-4.4321+2.321+3.21
+	- 4{4321} + 2{321} + 3{21}
+             SFN>
+           ->rp_s 12 last
+	12{4321} + 12{321} + 12{21}
+             SFN>

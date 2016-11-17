@@ -1,0 +1,14 @@
+ CH_UoneReps
+     Format:-Ch_U INTEGER  gr grN EXPR (DPM)
+             Ch_U INTEGER EXPR         (REP)
+      Modes:-DPM, REP
+ Description:-This operation multiplies the weights of all U(1) reps in
+             EXPR by INTEGER for the group specified by the grN.
+    Example:-
+             DP>
+           ->gr2u1su5
+             Groups are U(1) * SU(5)
+             DP>
+           ->ch_u 3 gr1 [6 * 21] + [~2 * 21^2] + [~6 * 2^3 1]
+             {18 }{21} + {-6}{21^2} + {-18 }{2^3 1}
+             DP>

@@ -1,0 +1,23 @@
+ LOGfile
+     Format:- Log 'filename'
+      Modes:-DPM, REP, SFN
+ Description:-A logfile maybe setup at anytime by use of the command
+             Log'filename'. This has the effect of directing current
+             results to the file `filename'. This file may be closed
+             at anytime by issuing the command  Log''. The filename
+             'prn.' should direct the output to an attached printer.
+             Exiting SCHUR will automatically close the current logfile.
+             A logfile may be subsequently edited by any appropriate
+             text editor.
+    Example:-
+             DP>
+           ->log'testfile.tst'
+             DP>
+           ->gr e8
+             Group is E(8)
+             DP>
+           ->dim[63]
+             Dimension = 2903770000
+             DP>
+           ->log''  (Closes logfile)
+	     DP>

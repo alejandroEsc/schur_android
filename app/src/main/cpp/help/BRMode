@@ -1,0 +1,46 @@
+ BRMode
+     Format:-BRM
+      Modes:-DPM
+ Description:-Switches from the DPMode to the BRMode. Going into the BRMode 
+ 	     allows the user to pick a branching rule and to evaluate it 
+	     for a number of representations taken one at a time, without 
+	     multiplicity, without having to reset the rule. However, the 
+	     result of a calculation cannot be processed further.
+	     When this mode is called it first asks you to 
+	     "enter branching & rule numbers". This should be done in the 
+	     form: rule number,m,n,p,q
+	     where m,n,p,q are any necessary group-subgroup parameters.
+	     To change the rule enter STOP. To exit to the DPMode enter 
+	     EXITmode. See also the helpfile TABleOfBranchingRules.
+    Example:- DP>
+           ->brm
+	Branch Mode
+	enter branching & rule numbers>
+           ->1,6
+	U(6) to O(6)
+	BRM>
+           ->421
+	[421] + [41] + [32] + [31^2] + [3] + [2^2 1] + 2[21] + [1]
+	BRM>
+           ->stop
+	enter branching & rule numbers>
+           ->41
+	G(2) to SO(3)
+	BRM>
+           ->52
+	[13 ] + [12 ] + [11 ] + [10 ] + 2[9] + 2[8] + 2[7] + 2[6] + 2[5]
+	+ 2[4] + 2[3] + [2] + [1]
+	BRM>
+            ->stop
+	enter branching & rule numbers>
+	   ->27,3,5
+	SO(8) to SO(3) * SO(5)
+	BRM>
+  	   ->32
+	[3][2] + [3][1] + [3][0] + [2][3] + [2][21] + [2][2] + [2][1^2]
+	+ 2[2][1] + [2][0] + [1][31] + [1][2^2] + [1][21] + 2[1][2] 
+	+ [1][1^2] + [1][1] + [1][0] + [0][32] + [0][3] + [0][21] + [0][1]
+	BRM>
+           ->exit
+	DPrep Mode (with function)
+	DP>

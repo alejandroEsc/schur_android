@@ -1,0 +1,9 @@
+ RM_EVENWtInList
+     Format:-Rm_EvenW EXPR
+      Modes:-REP, SFN
+ Description:-Removes all partitions from EXPR whose weight is even.
+    Example:-
+             SFN>
+           ->rm_Evenw {1} + {2} + {21} + {42}
+             {21} + {1}
+             SFN>

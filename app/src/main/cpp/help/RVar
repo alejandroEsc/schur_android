@@ -1,0 +1,5 @@
+ RVar
+     Format:- Rv N
+      Modes:- REP
+ Description:- Contains the rep  variable   N, N=1...50,  set with
+             SETRepVar. Use as a rep EXPR when required.

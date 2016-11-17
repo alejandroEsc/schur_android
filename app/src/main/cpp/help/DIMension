@@ -1,0 +1,18 @@
+ DIMensions
+     Format:-Dim EXPR
+      Modes:-DPM, REP
+ Description:-Calculates the dimensions of EXPR. Dimensions are computed
+             for all the compact semisimple Lie groups and the symmetric
+             groups and for the representations associated with products
+             of those groups. Dimensions for the supergroups U(m/n) and
+             OSp(m/n) can be calculated by first branching to their maximal
+             subgroups U(m) * U(n) or O(m) * Sp(n).
+   Examples:-DP>
+           ->gr3su8sp4so6
+             Groups are SU(8) * Sp(4) * SO(6)
+             DP>
+           ->dim[4321*42*s321+]
+             Dimension = 6035420160
+	     DP>
+
+NOTES: See also Sb_Dimensions

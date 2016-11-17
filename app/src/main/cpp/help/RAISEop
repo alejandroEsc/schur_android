@@ -1,0 +1,24 @@
+ RAISEop
+     Format:- Raise s, EXPR (s = +/- 1)
+      Modes:-SFN
+ Description:-  Raise is the operator \prod_{i<j} (1 + sR_{ij}) with
+              the phase s taking values +1 or -1, while R_{ij} acts
+	      on each term {\lambda} in EXPR by increasing the ith
+	      component of lambda by 1 and decreasing the jth component by 1.
+	      In the case s=1 the final expression is subject to Q-function
+              standardisation. In the case s=-1 the final expression is
+	      subject to H-function standardisation, by which is meant any
+	      term {\mu} involving a negative component is set to zero, while
+	      in each of the remaining terms the components are permuted so to
+	      give a partition.  
+   Examples:-
+	SFN>
+           ->raise 1,321
+	{51} + 2{42} + {321}
+	SFN>
+           ->raise 1,2^2
+	{31}
+	SFN>
+           ->raise -1,321
+	{51} - {41^2} - {3^2} + {321}
+	SFN>

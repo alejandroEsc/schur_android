@@ -1,0 +1,7 @@
+ RM_UoneWtOverMax
+     Format:-Rm_U INTEGER, grN, EXPR (DPM)
+             Rm_U INTEGER,   EXPR    (REP)
+      Modes:-DPM, REP
+ Description:-Removes from EXPR all representations involving a U(1) group
+             rep whose integer weight exceeds INTEGER. Originally
+             introduced in connection with the Macdonald identities.

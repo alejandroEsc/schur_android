@@ -1,0 +1,13 @@
+ COUNTCoeffsInList
+     Format:-Countc EXPR
+      Modes:-DPM, REP, SFN
+ Description:-Computes the sum of the coefficients of the terms in EXPR
+             and returns CoeffSum
+    Example:-
+             SFN>
+           ->countc 42+41^2+3^2+2.321+31^3 +2^3 +2^2 1^2
+             CoeffSum = 8
+             SFN>
+           ->countc outer 21,21
+             CoeffSum = 8
+             SFN>

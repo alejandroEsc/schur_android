@@ -1,0 +1,5 @@
+ SETVarInDPmode
+     Format:-SetV N, EXPR
+      Modes:-DPM
+ Description:-Defines DPrep variable N ( Var N, N = 1...50) to be EXPR. See
+ 	     also Var command.

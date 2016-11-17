@@ -1,0 +1,19 @@
+ SB_PowerNotation
+     Format:-Sb_P [TRUE|FALSE]
+      Modes:-DPM, REP, SFN
+ Description:-Sb_P TRUE allows both the input and the output to be
+             in power (or exponent) notation. Setting  Sb_P FALSE gives
+             output without exponent notation. The default setting is
+             Sb_P TRUE. The setting persists in all modes including the
+             BRMode until it is changed by the user.
+             See also  Sb_CUt.
+    Example:-
+             SFN>
+           ->o 21^2,1^2
+	{321} + {31^3} + {2^3} + {2^2 1^2} + {21^4}
+             SFN>
+           ->sb_power false
+             SFN>
+           ->last
+	{321} + {3111} + {222} + {2211} + {21111}
+	     SFN>

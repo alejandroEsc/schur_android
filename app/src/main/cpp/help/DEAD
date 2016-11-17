@@ -1,0 +1,19 @@
+ DEAD
+
+     Format:- DEAD  qfn1,qfn2,qfn3
+      Modes:-SFN
+ Description:- qfn1,qfn2, qfn3 are Q-functions specified by partitions.
+              DEAD is a Boolean operator that is FALSE if the Q-function
+              qfn1 does not appear in the Q-function product qfn2 . qfn3.
+              If DEAD is TRUE then qfn1 probably appears in the product,
+              This is an implementaion of Theorem 2 in J. Math. Phys, (31)
+              1310 (1990). 
+   Example:-
+             SFN>
+           ->dead!10 654321,32,765431
+             dead =true
+             SFN>            
+           ->dead 9875421,32,765431
+             dead =false
+             SFN> 
+  

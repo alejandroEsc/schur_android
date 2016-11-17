@@ -1,0 +1,5 @@
+ SET_PWT
+     Format:- SET_PWT INTEGER
+      Modes:- REP, SFN
+ Description:- Used in plethysm calculations. Computes only those plethysms
+              of weight Integer or less. Default value set at 200.

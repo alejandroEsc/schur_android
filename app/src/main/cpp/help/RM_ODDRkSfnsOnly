@@ -1,0 +1,9 @@
+ RM_ODDRkSfnsOnly
+     Format:-Rm_OddR EXPR
+      Modes:-SFN
+ Description:-Removes all partitions from EXPR whose Frobenius rank is odd.
+    Example:-
+             SFN>
+           ->rm_oddr {1} + {2} + {21} + {42}
+             {42}
+             SFN>

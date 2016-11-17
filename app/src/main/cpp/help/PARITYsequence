@@ -1,0 +1,11 @@
+ PARITYsequence
+
+     Format:-PARITY SEQUENCE
+      Modes:-SFN
+ Description:-SEQUENCE is a sequence of positive integers. PARITY is EVEN
+             if the sequence can be ordered as an increasing sequence by
+             an even permutation otherwise PARITY is  ODD.
+    Example:-SFN>
+           ->parity1112233254
+             parity of sequence is odd
+             SFN>

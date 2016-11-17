@@ -1,0 +1,15 @@
+ FROBenius
+   
+     Format:- FROBenius INTEGER, EXPR   
+      Modes:- SFN
+ Description:- If INTEGER is positive then this command returns all
+              terms in EXPR which are of Frobenius rank  INTEGER or 
+              less. If INTEGER is negative then the command returns all
+              terms in EXPR which are of Frobenius rank INTEGER exactly.
+    Example:- SFN>
+           -> outer21,21
+	{42} + {41^2} + {3^2} + 2{321} + {31^3} + {2^3} + {2^2 1^2} 
+	SFN> 
+           -> frob-2last
+	{42} + {3^2} + 2{321} + {2^3} + {2^2 1^2}
+	SFN>

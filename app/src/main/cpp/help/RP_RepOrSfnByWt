@@ -1,0 +1,17 @@
+ RP_RepOrSfnByWt
+     Format:-Rp_R group grN EXPR (DPM)
+             Rp_R EXPR           (REP),(SFN)
+      Modes:-DPM, REP, SFN
+ Description:-This command replaces a rep or sfn by its weight. This command
+             is especially useful with  RULE when U(1) reps are involved.
+    Example:- DP>
+           ->gr2su8so8
+Groups are SU(8) * SO(8)
+DP>
+           ->branch1,8gr1[321*1]
+Groups are SO(8) * O(8)
+[1][321] + [1][31] + [1][2^2] + [1][21^2] + [1][2] + [1][1^2]
+DP>
+           ->rp_r gr2last
+[1][6] + 3[1][4] + 2[1][2]
+DP>

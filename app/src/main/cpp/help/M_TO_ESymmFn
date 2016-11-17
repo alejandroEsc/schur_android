@@ -1,0 +1,11 @@
+ M_To_EsymmFn
+     Format:- M_To_E EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of monomial symmetric functions
+             m_{\lambda} and transforms them into a list of elementary
+             symmetric functions e_{\mu}.
+    Example:-
+             SFN>
+           ->m_to_e 21
+             - 3e_{3}  + e_{21}
+	     SFN>

@@ -1,0 +1,10 @@
+ SUPpressOutPutToScreen
+     Format:- Sup  [TRUE|FALSE]
+      Modes:- DPM, REP, SFN
+ Description:-This line in a function allows the user to turn the output
+             on or off during the execution of a function. Normally only
+             the last line of a function is outputted.  SUP FALSE turns
+             it off. Placed at the beginning of a function it results in
+             the output of the result of each line of the function. Useful
+             for debugging functions. At the completion of a function  SUP
+             is automatically returned to TRUE.

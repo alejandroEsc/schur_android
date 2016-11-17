@@ -1,0 +1,19 @@
+ SUBtract
+     Format:-Sub EXPR1, EXPR2
+      Modes:-DPM, REP, SFN
+ Description:-Subtracts EXPR2 from EXPR1.
+    Example:-
+             SFN>
+	   ->setsv1 321+3+21
+	     SFN>
+	   ->setsv2 4321+32-21
+	     SFN>
+           ->sv1
+             {321} + {3} + {21}
+             SFN>
+           ->sv2
+             {4321} + {32} - {21}
+             SFN>
+           ->sub sv1,sv2
+             - {4321} + {321} - {32} + {3} + 2{21}
+             SFN>

@@ -1,0 +1,21 @@
+ STATusOfSchur
+     Format:-Stat
+      Modes:-DPM, REP, SFN
+ Description:-Determines the status of SCHUR by displaying information
+             about the status configuration of SCHUR.
+             The format is:
+          digits:T reverse:F more:F TeX:F debug:F setlimit:12 pwt:200 logging:F
+	       .........10........20........30........40........50
+	   fns:12___6___0_________._________._________._________. Current Mode
+	   var:123____8_._________.1________._________._________.
+
+
+      where T or F indicates the status of the flag, i.e. TRUE or FALSE.
+      If LOGGING is TRUE then the chosen name of the current logfile
+      is displayed. The third line indicates the numbers of the
+      functions that have been set. In the above example FNS 1,2,6 and
+      10 have been set. The forth line displays the VARS that have
+      been set in the DPMode. In the REPmode the number of RVARS are 
+      displayed or in the SFNmode the number of SVARS are displayed. 
+      In each case the number of VARS, RVARS, or SVARS is given modulo
+      10 and hence in the above the VARS 1,2,3,8, and 21 have been set.

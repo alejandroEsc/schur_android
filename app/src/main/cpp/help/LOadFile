@@ -1,0 +1,19 @@
+ LOadFile
+     Format:- Lo RVar 'filename'  (REP)
+              Lo SVar 'filename'  (SFN)
+      Modes:-REP, SFN
+ Description:-Loads a previously saved file of RVar or Svar as
+             chosen. See  SAVEsetVar and  SETSVar for additional
+             details.
+    Example:-SFN>
+           ->setsv1 3+21+2
+	SFN>
+           ->save svar 'filename'
+	save[1]
+	SFN>
+           ->load svar 'filename'
+	load[1]
+	SFN>
+           ->sv1
+	{3} + {21} + {2}
+	SFN>

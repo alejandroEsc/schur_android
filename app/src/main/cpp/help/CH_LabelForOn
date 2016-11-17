@@ -1,0 +1,27 @@
+ CH_LabelForOn
+     Format:-Ch_L  gr grN EXPR  (DPM)
+             Ch_L         EXPR  (REP)
+      Modes:-DPM, REP
+ Description:-Used for swapping the (+) and (-) labels that arise in EXPR 
+ 	      for the groups SO(2n). This operation corresponds to an SO(2n)->SO(2n)
+              automorphism that is NOT covered by the command AUtoOrIsoMorphisms.
+    Example:-DP>
+           ->gr so8
+	Group is SO(8)
+	DP>
+           ->[s1+] + [s0-]
+	[s;1]+ + [s;0]-
+	DP>
+           ->ch_l gr1last
+	[s;1]- + [s;0]+
+	DP>
+           ->rep
+	REP mode
+	Group is SO(8)
+	REP>
+           ->s1+ + s0- + 21^3- + 1^4+ + 1^3 + 2^4
+	[s;1]+ + [s;0]- + [21^3]- + [1^4]+ + [1^3] + [2^4]
+	REP>
+	   ->ch_l last
+	[2^4] + [21^3]+ + [s;1]- + [1^4]- + [1^3] + [s;0]+
+	REP>

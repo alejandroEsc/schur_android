@@ -1,0 +1,9 @@
+ MAXCoeffInList
+     Format:- Maxc, EXPR
+      Modes:-DPM, REP, SFN
+ Description:-Finds the largest multiplicity coefficient in the list
+             produced by EXPR and echoes it to the screen.
+    Example:- SFN>
+           ->maxc 6.321 + 4.32 + !12.21
+	MaxCoeff = 12
+	SFN>

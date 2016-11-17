@@ -1,0 +1,20 @@
+ CONV_R_TO_Sfn
+     Format:-Conv_R_to_S EXPR
+      Modes:-SFN
+ Description:-Converts a list of REP irreps into a list of S-functions.
+             N.B. Assumes the irreps are of tensor type and do not have
+             attached labels or mixed notation.
+    Example:-
+             REP>
+           ->gr sp8
+             Group is Sp(8)
+             REP>
+           ->21 + 321 + 42
+	     <21> + <321> + <42>
+             REP>
+           ->sfn
+	     Schur Function Mode
+             SFN>
+           ->conv_r_to_s last
+             {42} + {321} + {21}
+             SFN>

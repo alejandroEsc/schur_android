@@ -1,0 +1,11 @@
+ I_SFNQfnProduct
+     Format:- I_SfnQ EXPR1,EXPR2
+      Modes:- SFN
+ Description:-Calculates the sum of the inner products of pairs consisting of
+             an S-function in EXPR1 and a Q-function in EXPR 2 that have the 
+	     same weight, including the product of their coefficients. It
+	     gives zero if there no such pairs having the same weight. 
+    Example:-SFN>
+           ->i_sfnq 321, 6 -5 +2.51
+	4Q_{6} + 11Q_{51} + 18Q_{42} + 3Q_{321}
+	     SFN>

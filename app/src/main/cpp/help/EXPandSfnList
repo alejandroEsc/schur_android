@@ -1,0 +1,10 @@
+ EXPandSfnList
+     Format:- Exp EXPR
+      Modes:-SFN
+ Description:-Expands EXPR by expressing every term c{a} as a sum of c terms 
+	      {a} if c is positive, and as a sum of -c terms -{a} if c is 
+	      negative, so that in the final expression all coefficients are either +1 or -1.
+    Example:-SFN>
+           ->exp 3.321 -2.21
+	{321} + {321} + {321} - {21} - {21}
+	     SFN>

@@ -1,0 +1,7 @@
+ SB_CONJecture
+	Format:- sb_conj [TRUE|FALSE]
+	Modes:- DPM, REP
+    Description:- When FALSE, Kronecker products for the non-compact group 
+	Sp(2n,R) are computed using the conjecture of King and Wybourne. 
+	When TRUE the Kronecker products are calculated directly. 
+	The default value is set as TRUE.

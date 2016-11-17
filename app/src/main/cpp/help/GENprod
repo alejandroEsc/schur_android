@@ -1,0 +1,12 @@
+ GENprod
+     Format:-GEN INTEGER
+      Modes:-SFN
+ Description:-Generates the list of monomials corresponding to the expansion
+              of the product over i from 1 to (INTEGER N - 1) of 
+	      (x_i - x_N)^2. A typical monomial x_1 x_3^3 is represented by 
+	      {103}. See also VMult and SMON.
+    Example:-SFN>
+           ->gen 3
+	{2^2} - 2{21^2} + {202} - 2{121} + 4{1^2 2} - 2{103} + {02^2} 
+	- 2{013} + {0^2 4}
+	SFN>

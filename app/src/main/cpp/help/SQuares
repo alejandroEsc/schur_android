@@ -1,0 +1,11 @@
+ SQuares
+    Format:- SQ EXPR
+     Modes:- REP, SFN   
+ Description:-Sums the absolute squares of the coefficients in EXPR.
+    Example:- SFN>
+    	-> o 21,41
+	{62} + {61^2} + {53} + 2{521} + {51^3} + {431} + {42^2} + {421^2}
+	SFN>
+	-> sq last
+	Sum of absolute squares of multiplicities =11
+	SFN>

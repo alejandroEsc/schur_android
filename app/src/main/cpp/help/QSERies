@@ -1,0 +1,11 @@
+ QSERies
+     Format:-qser Series
+      Modes:-SFN
+ Description:-Gives a polynomial expansion of the first SETLIMit terms in
+             powers of q of the sum of all S-functions in SERIES with their
+	     variables specialised to (q,q^2,...)". SERIES is any one of the
+             S-function series A,B,C,D,E,F,G,H,L,M,P,Q.
+	Example:-SFN>
+	      -> qser A
+	1 -q^3 -q^4 -2q^5 -2q^6 -2q^7 -q^8 +2q^10 +5q^11 +7q^12
+	SFN>

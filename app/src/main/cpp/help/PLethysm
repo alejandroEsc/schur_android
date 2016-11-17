@@ -1,0 +1,26 @@
+ PLethysm
+     Format:- Pl EXPR1, EXPR2
+      Modes:-REP, SFN
+ Description:-Calculates the plethysm of EXPR1 \otimes EXPR2.
+             In the SFN MODE EXPR1 and EXPR2 may be lists of
+             S-functions while in the REP MODE EXPR1 may be
+             tensor reps of U(n), SU(n), SO(2k+1), O(n) or G(2).
+             Plethysms may also be evaluated for single irreps of Sp(2n,R) or
+             SO^*(2n).
+             In that case first setlimit to say 12 and set_pwt to say 12
+             and terms to weight 12 will be computed. Higher values of
+             setlimit and set_pwt will yield higher weight terms but will
+             take longer to compute. 
+    Examples:-REP>
+           ->gr g2
+	Group is G(2)
+	REP>
+           ->pl 21,2
+	(42) + (2) + (0)
+	REP>
+	   ->sfn
+	Schur Function Mode
+	SFN>
+           ->pl 21,2
+	{42} + {321} + {31^3} + {2^3}
+	SFN>

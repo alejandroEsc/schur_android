@@ -1,0 +1,7 @@
+ SB_Bell
+     Format:-Sb_Bell [TRUE|FALSE]
+      Modes:-DPM, REP, SFN
+    Description:-    When TRUE, BELL writes an ASCII code 7 before getting 
+        the next command line in all modes except BRM. BELL is turned on by
+        entering the command Sb_B TRUE. The default value is set as FALSE.
+    NOTES:- This command may be not available on your system.

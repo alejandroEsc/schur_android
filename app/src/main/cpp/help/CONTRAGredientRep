@@ -1,0 +1,31 @@
+ CONTRAGredientRep
+     Format:-Contrag gr grN EXPR (DPM)
+             Contrag EXPR        (REP)
+      Modes:-DPM, REP
+ Description:-Replaces the representations in EXPR by their
+             contragredient representations for the U(1), SU(n),
+             and E(6) groups. The command CH_LabelForOn may be
+             used for SO(2k) where appropriate.
+    Example:-DP>
+           ->gr3e6su3u1
+	Groups are E(6) * SU(3) * U(1)
+	DP>
+           ->[1^2 * 1 * ~3]
+	(1:1){1}{-3}
+	DP>
+           ->contrag gr1last
+	(1:1^5){1}{-3}
+	DP>
+           ->contrag gr2last
+	(1:1^5){1^2}{-3}
+	DP>
+           ->contrag gr3last
+	(1:1^5){1^2}{3}
+	DP>
+	   ->rep
+	REP mode
+	Group is E(6)
+	REP>
+           ->contrag 1^6
+	(1:1)
+	REP>

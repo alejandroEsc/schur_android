@@ -1,0 +1,9 @@
+ ADD
+     Format:-ADD EXPR1, EXPR2
+      Modes:-DPM, REP, SFN
+ Description:-Adds EXPR1 to EXPR2 to produce the resultant.
+    Example:-SFN>
+	->add 3.21^3 -2.321 +42 -1^5, -3.21^3 -2.321 +42 -1^5
+	2{42} - 4{321} - 2{1^5}
+             SFN>
+

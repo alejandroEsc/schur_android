@@ -1,0 +1,12 @@
+ CONJugateSfnList
+     Format:-Conj EXPR
+      Modes:-SFN
+ Description:-Takes the conjugate of the S-functions in EXPR.
+    Example:-
+             SFN>
+           ->conj 42+31
+             {2^2 1^2} + {21^2}
+             SFN>
+           ->conj last
+             {42} + {31}
+             SFN>

@@ -1,0 +1,16 @@
+ YShapeSelect
+     Format:-YS letter EXPR
+      Modes:-SFN
+ Description:- letter belongs to the character set ['c','d','r','s','t'].
+              Choosing 'c' gives the column partitions in EXPR.
+              Choosing 'd' gives the double hook partitions in EXPR.
+              Choosing 'r' gives the single row partitions in EXPR.
+              Choosing 's' gives the single hook partitions in EXPR.
+              Choosing 't' gives the two row partitions in EXPR.
+              Any other choice of letters gives an error message.
+   Example:-
+
+             SFN>
+           ->ys s 42+41^2+3^2+2.321+31^3+2^3+2^2 1^2
+             {41^2} + {31^3}
+             SFN>

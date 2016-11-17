@@ -1,0 +1,12 @@
+ STD_Qfn
+     Format:-Std_Q EXPR
+      Modes:-SFN
+ Description:-Standardises Q-functions arising from EXPR.
+    Example:-
+             SFN>
+           ->o21,21
+	{42} + {41^2} + {3^2} + 2{321} + {31^3} + {2^3} + {2^2 1^2}
+             SFN>
+           ->std_q last
+	Q_{42} + 2Q_{321}
+             SFN>

@@ -1,0 +1,14 @@
+ SCHAR
+       Format:-SCHAR REP, CLASS
+        Modes:- REP
+   Description:- REP is a single irrep of the symmetric group S(N) and 
+                CLASS is a single class  of the symmetric group S(N).
+                SCHAR returns the characteristic as an integer.
+
+      Example:-REP>
+             ->gr s56 
+             Group is S(56)
+               REP>            
+             ->schar !48 8,86^35^24^32^4
+               characteristic =  27 
+               REP>    

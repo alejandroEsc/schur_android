@@ -1,0 +1,27 @@
+ CONSPLIT
+     Format:-CONSPLIT EXPR
+      Modes:-REP
+ Description:-This command only works with groups SU(n). It interprets EXPR 
+              as a list of irreps of SU(n) and splits it into three sets of
+	      terms. Self-contragredient irreps are stored
+              as RVAR19. In the case of contragredient pairs of irreps
+              the lowest weight partner is stored as RVAR18 and the higher
+              weight partner as RVAR20.
+    Example:- REP>
+            ->gr su6
+	Group is SU(6)
+	REP>
+            ->p21^4,21^4
+	{42^4} + {3^2 2^3} + {31^3} + {2^2 1^2} + 2{21^4} + {0}
+	REP>
+            ->consplit last
+	REP>
+            ->rv18
+	{31^3}
+	REP>
+            ->rv19
+	{42^4} + {2^2 1^2} + 2{21^4} + {0}
+	REP>
+            ->rv20
+	{3^2 2^3}
+	REP>

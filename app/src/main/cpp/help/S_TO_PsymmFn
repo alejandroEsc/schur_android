@@ -1,0 +1,19 @@
+ S_TO_PsymmFn
+     Format:- S_To_P EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of S-functions and transforms them into
+             a list of powersum symmetric functions p_{\mu}. The normalisation
+             has been chosen to give integer coefficients. The actual     
+             coefficients may be obtained by dividing by n! where n is the
+             weight of the partitions in EXPR. It is assumed that all the
+             partitions in EXPR are of the same weight. Transformations 
+             from other symmetric functions to power sum symmetric functions
+             may be found by combining sequences of commands. Thus if EXPR
+             is a set of elementary symmetric functions then the command
+             sequence E_TO_S, S_TO_P, EXPR will yield the desired result.
+              
+    Example:-
+             SFN>
+           ->s_to_p 31
+	- 6p_{4} - 3p_{2^2} + 6p_{21^2} + 3p_{1^4}
+             SFN>

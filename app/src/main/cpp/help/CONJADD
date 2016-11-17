@@ -1,0 +1,14 @@
+ CONJADD
+     Format:-CONJADD EXPR
+      Modes:-SFN
+ Description:-Acts on each term in EXPR by replacing each partition a by 
+ 	      its conjugate a' if and only if a'>a with respect to the 
+	      usual reverse lexicographic ordering, whereby for example 
+	      41^2 > 31^3
+    Example:-SFN>
+           ->o 21,21
+	{42} + {41^2} + {3^2} + 2{321} + {31^3} + {2^3} + {2^2 1^2}
+	SFN>
+           ->conjadd last
+	2{42} + 2{41^2} + 2{3^2} + 2{321}
+	SFN>

@@ -1,0 +1,5 @@
+ SETSVariable
+     Format:- Setsv N, EXPR
+      Modes:-SFN
+ Description:-Defines Sfn Variable N ( SVar N, N = 1...50) to be EXPR. See also
+              SVar command.

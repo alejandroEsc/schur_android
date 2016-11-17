@@ -1,0 +1,12 @@
+ Kostka
+
+     Format:-Kostka SFN1, SFN2
+      Modes:-SFN
+ Description:-Computes the element of the Kostka matrix K_{a,b} where
+             a=SFN1 and b=SFN2 which are single S-functions.
+    Example:-SFN>
+           ->k4321,221^6
+             Kostka matrix element = 
+	     192
+             SFN>
+

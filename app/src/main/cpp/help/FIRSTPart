@@ -1,0 +1,16 @@
+ FIRSTPartsort
+     Format:- FIRSTP INTEGER, EXPR
+      Modes:-REP, SFN
+ Description:-If INTEGER is positive then this command returns all
+             terms in EXPR whose first part is less than or equal to
+             INTEGER. If INTEGER is negative then the command returns all
+             terms in EXPR whose first part is exactly equal to INTEGER.
+    Example:-
+             SFN>
+           ->firstp 3,42+321+2^3+1^4
+             {321} + {2^3} + {1^4}
+             SFN>
+           ->firstp -3,last
+             {321}
+	     SFN>
+

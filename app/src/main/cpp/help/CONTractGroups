@@ -1,0 +1,39 @@
+ CONTractGroups
+     Format:-Cont INTEGER1, INTEGER2 OPERATION EXPR
+      Modes:-DPM
+ Description:-Operates with OPERATION on reps of the INTEGER1 (=n)-th and
+             INTEGER2 (=m)-th groups of the DPrep EXPR and assigns the result
+	     to repm whilst removing repn. The set of groups are changed
+	     accordingly. The default operation is Kronecker product under the
+             m-th group whilst the other five operations involve the
+	     partitions labelling reps m and n.
+	default rep = repm * repn under the m-th group.
+	Mix  rep = {a;b}, a mixed tensor as in U_m.
+	O     a = a.b, the Sfn outer product.
+	I     a = a\circ b, the Sfn inner product.
+	Sk    a = a/b, the Sfn skew.
+	Pleth a = a\otimes b, the Sfn plethysm.
+             These operations are especially useful in implementing new
+	     product or branching rules.
+   Examples:-DP>
+           ->gr2su8su8
+	Groups are SU(8) * SU(8)
+	DP>
+           ->prod[1 * 1],[2 * 1^2]
+	{3}{21} + {3}{1^3} + {21}{21} + {21}{1^3}
+	DP>
+           ->cont 1,2 last
+	Group is SU(8)
+	{51} + 2{42} + 3{41^2} + {3^2} + 4{321} + 3{31^3} + {2^3} 
+	+ 2{2^2 1^2} + {21^4}
+	DP>
+           ->gr2u8u8
+	Groups are U(8) * U(8)
+	DP>
+           ->[2 * 2]
+	{2}{2}
+	DP>
+           ->cont 1,2 pleth,last
+	Group is U(8)
+	{4} + {2^2}
+	DP>

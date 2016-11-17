@@ -1,0 +1,4 @@
+ WHATGroup
+     Format:- WhatG
+      Modes:-DPM, REP
+ Description:-This command returns the current setting of the groups.

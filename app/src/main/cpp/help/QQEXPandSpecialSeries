@@ -1,0 +1,12 @@
+ QQEXPandSpecialSeries
+     Format:-Qqexp EXPR
+      Modes:-SFN
+ Description:-Gives a polynomial expansion of the first SETLIMit terms in
+             powers of q of the sum of all supersymmetric S-functions in
+             EXPR with their variables specialised to (q,q^2,.../q,q^2,...)
+   Example:-SFN>
+   	    ->qqexp 21-1
+	-2q -2q^2 +6q^4 +14q^5 +24q^6 +38q^7 +54q^8 +72q^9 +94q^10 +118q^11
+	+144q^12
+	{21} - {1}
+	SFN>

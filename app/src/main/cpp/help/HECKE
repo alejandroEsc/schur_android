@@ -1,0 +1,28 @@
+ HECKE
+      Format:-HECKE PARTITION
+       Modes:- DPM
+  Description:-Determines the character of the irrep of the Hecke algebra
+  	       H_n(q), for q not a root of unity, in the class specified by 
+               a single PARTITION, entered without any enclosing brackets, 
+	       whose parts give the cycle structure and whose weight is n.
+	       Prior to using HECKE the group must be set as U(n)*U(1), where
+	       n is the order of the Hecke algebra. (See chapter Advanced 
+	       Tutorials in the SCHUR manual for some additional details). In
+	       the output the partitions associated with U(n) correspond to
+	       the irrep labels of H_n(q), while the irrep of U(1) gives the
+	       exponents of q.
+     Example:-DP>
+           -> gr2u6u1
+	Groups are U(6) * U(1)
+	DP>
+           -> Hecke 42
+	{6}{4} + {51}{4} - 2{51}{3} + {42}{4} - {42}{3} + {42}{2}
+	- 2{41^2}{3} + 2{41^2}{2} - {3^2}{3} - {321}{3} + 2{321}{2}
+	- {321}{1} + 2{31^3}{2} - 2{31^3}{1} - {2^3}{1} + {2^2 1^2}{2}
+	- {2^2 1^2}{1} + {2^2 1^2}{0} - 2{21^4}{1} + {21^4}{0} + {1^6}{0}
+	DP>
+
+NOTES:
+Thus we can deduce that the character of the irrep {321} and class 
+(42) of H_6(q) is (- q^3 + 2q^2 - q). Putting q = 1 gives the 
+corresponding character of the symmetric group S(6), in this case zero.

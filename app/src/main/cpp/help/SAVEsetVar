@@ -1,0 +1,16 @@
+ SAVEsetVar
+     Format:-Save RVar INTEGER 'filename'   (REP)
+             Save SVar INTEGER 'filename'   (SFN)
+      Modes:-REP, SFN
+ Description:-If INTEGER is omitted then all non-zero xVars are saved to the 
+             file `filename'. If INTEGER is included then only xVar INTEGER 
+	     is saved. Saved files contain 'type' information distinguishing 
+	     SVars from RVars so that entering
+                > save SVAR, 'test'
+                > Load RVAR, 'test'
+             will generate an error. The files are pure ASCII so they are 
+	     available for external modification: the user can generate a 
+	     LOADable file outside SCHUR or use a Saved file outside.
+	     if SB_LISToutput is TRUE, the output is in a list format
+	     compatible to Maple.
+	

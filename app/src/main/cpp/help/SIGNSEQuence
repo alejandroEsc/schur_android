@@ -1,0 +1,41 @@
+ SIGNSEQuence
+     Format:-signseq n, rep                (REPmode)
+             signseq k,n,char,boolean,sfn  (SFNmode)
+      Modes:-REP,SFN
+ Description:-*REP* Used to construct a signed sequence of a Rep that involves
+             up to n parts for the groups O(k), SO(k) or Sp(2k). Signed
+             sequences may be constructed for any rep except for the
+             tensor reps of SO(2k) having k non-zero parts.
+
+             In the special case of the group U(k) the signed sequence is
+             constructed as in page 3127 of 
+             J.Phys.A:Math. Gen.(18), 3113 (1985). The format for entry
+             in this case is
+              signseq Q,P, rep
+             where rep is a mixed tensor irrep of U(k) and Q and P limit
+             the parts of the contravariant and covariant tensors respectively. 
+
+             *SFN* Used to construct a signed sequence of an S-function
+             that involves up to n parts which when treated as group
+             representations in the REP mode of O(k) or Sp(2k) all
+             modify to a single irrep of the group. Of particular
+             use in developing algorithms for the non-compact groups.
+             The character char designates the A, C or G series of
+             S-functions. Choosing the boolean TRUE results in a
+             signed sequence of S-functions whose maximal number of
+             parts is min(k,n) while setting the boolean FALSE restricts
+             the number of parts to n. It is assumed that sfn is a single
+             S-function. The S-function may be followed by the character
+             '#' if associated characters of O(k) are being considered.
+             In the case of Sp(2k) char ='A', while for O(k) if k is even
+             char = 'C' while for odd k char = 'G'.
+    Example:- REP>
+              ->gr o5
+	Group is O(5)
+	REP>
+              ->wt 16 signseq10,21
+	- [432^2 1^4] + [3^2 2^2 1^3] - [2^4 1] + [21]
+	REP>
+	      ->wt 16 signseq10,21#
+	[5321^6] - [4321^5] + [3^2 21^4] - [2^3 1^2] + [21^2]
+	REP>

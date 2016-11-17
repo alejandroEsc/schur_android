@@ -1,0 +1,10 @@
+ P_To_SsymmFn
+     Format:- P_To_S EXPR
+      Modes:-SFN
+ Description:-Expands a power sum symmetric function EXPR as a sum of
+             S-functions.
+    Example:-SFN>
+           ->p_to_s 31
+             {4} - {2^2} + {1^4}
+             SFN>
+ 

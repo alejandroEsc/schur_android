@@ -1,0 +1,21 @@
+ SPLitIntoSpinAndTensor
+     Format:-Spl EXPR
+      Modes:-REP
+ Description:-Spl acts on a REP List and writes the tensor reps to
+             RVar 1 and the spinor reps to RVar 2. This command
+             is very useful in problems involving supersymmetry.
+             Spl Lists may be recombined by use of  ADD RV1,RV2.
+    Example:-
+             REP>
+           ->gr so6
+             Group is SO(6)
+             REP>
+           ->split 321+ + s21- + 2 + s1+
+             REP>
+           ->rv1
+             [321]+ + [2]
+             REP>
+           ->rv2
+             [s;21]- + [s;1]+
+             REP>
+

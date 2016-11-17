@@ -1,0 +1,6 @@
+ WRFNTODisk
+     Format:-Wrfntod INTEGER `filename'
+      Modes:-DPM,REP,SFN
+ Description:-Writes the function INTEGER (=N), (N = 1...50) to a disk file
+             `filename'. This file can be read from disk with ReadF to
+             create a function.

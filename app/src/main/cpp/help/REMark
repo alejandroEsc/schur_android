@@ -1,0 +1,7 @@
+ REMark
+	Format:- Rem string
+	Modes:- SFN,DPM,REP
+    Description:-  This command allows the insertion of remarks into logfiles and
+      functions. If a Remark is encountered inside a function then the
+      line is echoed if the function is written to screen with WRfnToScreen.
+      REMark may also be used to insert REMarks into a LOGfile.

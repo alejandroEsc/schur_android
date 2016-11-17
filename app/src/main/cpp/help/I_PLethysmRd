@@ -1,0 +1,10 @@
+ I_PLethysmRd
+     Format:- I_Pl, EXPR
+      Modes:-SFN
+ Description:-Evaluates the plethysm <1> \otimes EXPR for S(N) in 
+             the reduced notation.
+    Example:-
+             SFN>
+           ->i_pl 21
+	<21> + <2> + <1^2> + <1>
+             SFN>

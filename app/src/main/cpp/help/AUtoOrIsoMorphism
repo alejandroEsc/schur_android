@@ -1,0 +1,42 @@
+ AUtoOrIsoMorphisms
+     Format:-AU gr grN TARGET_GR,EXPR(DPM)
+             AU TARGET_GR,EXPR        (REP)
+      Modes:-DPM, REP
+ Description:-Performs the automorphism or isomorphism current 
+             group -> TARGET_GR on EXPR. In particular for SO(8) -> SO(8), 
+	     SO(6) -> SU(4), SO(5) -> Sp(4), SU(2) -> SO(3) -> Sp(2) and 
+	     SO(2) -> U(1).
+   Examples:-DP>
+           ->gr2so6sp4
+	Groups are SO(6) * Sp(4)
+	DP>
+           ->au gr1su4,[s1^3+ * 21]
+	Groups are SU(4) * Sp(4)
+	{3}<21>
+	DP>
+	   ->REP
+	REP mode
+	Group is SU(4)
+	REP>
+           ->gr so8
+	Group is SO(8)
+	REP>
+           ->au so8,1
+	Group is SO(8)
+	[s;0]-
+	REP>
+           ->au so8,last
+	Group is SO(8)
+	[s;0]+
+	REP>
+           ->au so8,last
+	Group is SO(8)
+	[1]
+	REP>
+
+NOTES: Note the compulsory comma (,) after the name of the target
+group. The isomorphisms 
+SO(4) -> SU(2) * SU(2) -> SO(3) * SO(3) -> Sp(2) * Sp(2)
+result in a change in the number of groups set. The action of
+such isomorphisms can be evaluated in the DPMode using branching
+rule 15 for SO(4) -> SU(2) * SU(2).

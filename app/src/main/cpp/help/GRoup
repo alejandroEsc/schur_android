@@ -1,0 +1,33 @@
+ GRoup
+     Format:- Gr INTEGER GROUPNAMES (DPM)
+              Gr GROUPNAME     (REP)
+      Modes:-DPM, REP
+ Description:-Sets the group(s) with respect to which all rep and DPrep 
+ 	     calculations are done. INTEGER is the number of groups in a 
+	     direct product and is not required if equals to 1. The 
+	     maximum number of groups that may be set in DPM is 6. 
+	     Table A.3 shows how the available groups are to be entered.
+             N.B. Not all the groups listed in Table A.3 are available for
+	     all the commands in SCHUR so check the appropriate commands.
+    Example:-DP>
+           ->gr4e8f4g2e6
+             Groups are E(8) * F(4) * G(2) * E(6)
+             DP>
+           ->gr sumn4 6
+             Group is SU(4/6)
+             DP>
+
+NOTES: Table A.3: Formats for entry of groups in SCHUR
+
+Name of | code for   Name of | code for
+Group   | group      Group   | group
+--------+---------  ---------+---------
+U(n)    | u n           S(n) | s n
+SU(n)   | su n          E(6) | e6
+O(n)    | o n           E(7) | e7
+SO(n)   | so n          E(8) | e8
+Sp(n)   | sp n      OSp(m/n) | osp m n
+G(2)    | g2          U(p/q) | umn p q
+F(4)    | f4         SU(p/q) | sumn p q
+Sp(n,R) | spr n        Mp(n) | mp n
+SO^*(2p)| son 2p

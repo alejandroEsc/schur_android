@@ -1,0 +1,13 @@
+Q_TO_SDual
+
+     Format:-Q_To_SD EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of Q-functions and transforms them
+             into a list of symmetric functions of type S(x,-1) that are
+             dual to ordinary Schur functions in the space spanned by
+             Q-functions.
+    Example:-SFN>
+	->q_to_sd 31
+	- {4} + {31}
+	SFN>
+

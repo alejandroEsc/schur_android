@@ -1,0 +1,8 @@
+ CH_CoeffsToOneForSfns
+     Format:-Ch_C EXPR
+      Modes:-SFN
+ Description:-Reduces all multiplicities in EXPR to + 1.
+    Example:-SFN>
+           ->ch_c 2.32+5.21-7.2
+             {32} + {21} + {2}
+             SFN>

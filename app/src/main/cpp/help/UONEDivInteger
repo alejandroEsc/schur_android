@@ -1,0 +1,18 @@
+ UONEDivInteger
+     Format:-UOneD INTEGER  gr grN EXPR  (DPM)
+             UOneD INTEGER EXPR          (REP)
+      Modes:-DPM, REP
+ Description:-Divides the INTEGER into the first part of each partition in
+             EXPR. An error message is generated if the division is not exact.
+             While specifically introduced for the group U(1) it may be used
+	     for any group.
+    Example:-DP>
+           ->gr2u1su5
+             Groups are U(1) * SU(5)
+             DP>
+           ->[~6*21]
+             {-6}{21}
+             DP>
+           ->uoned3gr1last
+             {-2}{21}
+             DP>

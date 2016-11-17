@@ -1,0 +1,5 @@
+ SFNmode
+     Format:-sfn
+      Modes:-DPM, REP
+ Description:-Allows the user to shift from the DPMode or REPmode to
+             the SFNmode.

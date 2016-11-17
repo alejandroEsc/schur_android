@@ -1,0 +1,6 @@
+ DPMode
+     Format:-DPM
+      Modes:-REP, SFN
+ Description:-Invoking  DPMode in the REPmode or SFNmode returns SCHUR
+             to the DPMode. The same effect can be produced by the
+             command EXITmode.

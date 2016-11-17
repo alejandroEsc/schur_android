@@ -1,0 +1,18 @@
+ SCALARInner
+      Format:-SCALARI n,k
+       Modes:-REP
+  Description:-Computes the sum of the squares of the irreps of S(n)
+              for all partitions up to length k. If k is set as
+              negative then the sum of squares of the irreps of S(n)
+              is computed for all partititons of length k.       
+    Example:-REP>
+           ->gr S4
+	Group is S(4)
+             REP>
+          -> scalari4,3
+	4{4} + 2{31} + 3{2^2} + 2{21^2} + {1^4}
+             REP>
+           ->scalari4,-3
+	{4} + {31} + {2^2} + {21^2}
+             REP>
+

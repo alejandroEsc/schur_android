@@ -1,0 +1,38 @@
+ BRanch
+     Format:-BR RULE_NUMBERS  gr grN EXPR
+      Modes:-DPM
+ Description:-Executes the branching rule defined by `RULE_NUMBERS'
+             on the group `grN' of EXPR. Rule numbers are entered as
+             rule number n, m, p, q taken from Table A.2 (see 
+	     TABleOfBranchingRules). When a rule is executed on grN
+	     the resulting groups are shifted to the end of the 
+	     sequence of DPrep groups.
+    Example:-DP>
+	   ->gr g2   
+	Group is G(2)
+	DP>
+ 	   ->br41gr1[52+2.31-3.1]
+	Group is SO(3)
+	[13 ] + [12 ] + [11 ] + [10 ] + 2[9] + 4[8] + 4[7] + 2[6] + 4[5]
+	+ 4[4] + [3] + 3[2] + [1]
+	DP>
+	    ->gr g2
+	Group is G(2)
+	DP>
+	    ->br41gr1[92]   
+	Group is SO(3)
+	[25 ] + [24 ] + 2[23 ] + 2[22 ] + 4[21 ] + 5[20 ] + 6[19 ]
+	+ 7[18 ] + 9[17 ] + 10[16 ] + 12[15 ] + 12[14 ] + 14[13 ]
+	+ 14[12 ] + 15[11 ] + 15[10 ] + 15[9] + 14[8] + 14[7] + 12[6]
+	+ 12[5] + 9[4] + 8[3] + 5[2] + 4[1] + [0]
+	DP>
+	    ->gr spr6 
+	Group is Sp(6,R)
+	DP>
+	    ->br36,6gr1[s0;1-s0;0]
+	Group is U(3)
+	{s;11 } - {s;10 } + {s;9} - {s;8} + {s;7} - {s;6} + {s;5} - {s;4}
+	+ {s;3} - {s;2} + {s;1} - {s;0}
+	DP>
+
+NOTES: 01/26/2006 : all branching rules are not fully verified

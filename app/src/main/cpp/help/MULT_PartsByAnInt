@@ -1,0 +1,9 @@
+ MULT_PartsByAnInt
+     Format:-Mult_P INTEGER EXPR
+      Modes:-SFN
+ Description:-MULT_P multiplies every part of every partition appearing as a
+              term in EXPR by INTEGER.
+    Example:-SFN>
+           ->mult_p 3 321+21
+	{963} + {63}
+	SFN>

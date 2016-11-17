@@ -1,0 +1,11 @@
+ H_TO_SsymmFn
+     Format:-H_To_S EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of homogeneous symmetric functions
+             h_{\lambda} and transforms them into a list of Schur
+             symmetric functions.
+    Example:-
+             SFN>
+           ->h_to_s 21
+             {3} + {21}
+             SFN>

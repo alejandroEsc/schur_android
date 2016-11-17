@@ -1,0 +1,16 @@
+ SK_sfn
+     Format:-(1).  Sk EXPR1, EXPR2
+             (2). Sk EXPR, SERIES
+      Modes:-SFN
+ Description:-(1). Calculates the Sfn Skew  EXPR1/EXPR2
+             (2). Calculates Sfn Skew  EXPR/SERIES
+             SERIEs is a  letter representing one of the series
+             A, B, C, D, E, F, G, H, L, M, P, Q, R, S, T, V, W, X, Y
+             which may be specified in upper or lower case.
+    Example:-SFN>
+           ->sk 321,2
+	{31} + {2^2} + {21^2}
+	SFN>
+           ->sk321,m
+	{321} + {32} + {31^2} + {31} + {2^2 1} + {2^2} + {21^2} + {21}
+	SFN>

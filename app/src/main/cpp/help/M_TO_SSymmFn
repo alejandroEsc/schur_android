@@ -1,0 +1,11 @@
+ M_To_SsymmFn
+     Format:- M_To_S EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of monomial symmetric functions
+             m_{\lambda} and transforms them into a list of
+             Schur symmetric functions.
+    Example:-
+             SFN>
+           ->m_to_s 21
+             {21} - 2{1^3}
+             SFN>

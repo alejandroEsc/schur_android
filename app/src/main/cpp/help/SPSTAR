@@ -1,0 +1,21 @@
+ SPSTAR
+     Format:-SPSTAR  EXPR1 (REP)
+             SPSTAR  gr GRNO EXPR1 (DPM)
+      Modes:-REP, DPM
+ Description:-Takes a set of Sp(2n,R) irreps and replaces each irrep by its
+             "star" equivalent. 
+             NB. The group must be set as Sp(2n,R) - other group settings
+	     will produce an error message.
+    Example:- REP>
+           ->gr spr6
+	Group is Sp(6,R)
+	REP> 
+            ->p s;0,1;0 
+	<s1(12 )> + <s1(10 )> + <s1(8)> + <s1(6)> + <s1(4)> + <s1(2)> 
+	+ <s1(0)>
+	REP>            
+           ->spstar last
+	<s1(12 1)> + <s1(10 1)> + <s1(81)> + <s1(61)> + <s1(41)> 
+	+ <s1(21)> + <s1(1^3)>
+	REP>
+

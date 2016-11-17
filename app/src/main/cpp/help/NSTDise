@@ -1,0 +1,13 @@
+ NSTDise
+     Format:-Nstd INTEGER EXPR
+      Modes:-SFN
+ Description:-EXPR is a list of S-functions. Nstdise applies the
+             S-function standardisation rules to the first INTEGER
+             parts of each partition in the EXPR list to produce a
+             new list. INTEGER must be >1 else an error message is
+             produced.
+
+    Example:- SFN>
+             -> nstd 3,1415
+	- {3215}
+              SFN>

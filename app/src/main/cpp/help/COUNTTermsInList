@@ -1,0 +1,15 @@
+ COUNTTermsInList
+     Format:-CountT EXPR
+      Modes:-DPM, REP, SFN
+ Description:- Counts the number of distinct terms in EXPR without regard to
+               their multiplicity, and returns TermCount.
+    Example:- SFN>
+           ->outer21,21
+	{42} + {41^2} + {3^2} + 2{321} + {31^3} + {2^3} + {2^2 1^2}
+	SFN>
+           ->countt last
+	TermCount = 7
+	SFN>
+           ->countt outer4321,4321
+	TermCount = 206
+	SFN>

@@ -1,0 +1,17 @@
+ COVariant
+     Format:-COV EXPR
+      Modes:-REP
+ Description:-Converts a mixed tensor irrep of the group U(n) into an
+             equivalent covariant irrep. The group must be set as U(n)
+             else an error message is generated. The result is 
+             printed as {p;lambda} where the integer 'p' is to be
+             interpreted as the exponent of the one-dimensional irrep
+             whose basis is a totally antisymmetric n-th rank covariant
+             tensor and 'lambda' is a standard covariant irrep of U(n).
+   Example:- REP>
+          -> gr u6
+             Group is U(6)
+             REP>
+         ->  cov 21;321
+             {-2;54321}
+             REP>

@@ -1,0 +1,16 @@
+ STD
+     Format:-Std EXPR
+      Modes:-DPM, REP, SFN
+ Description:-Converts a list of DPreps, Reps or Sfns into a list of
+             standardised DPreps, Reps or Sfns. The command is available
+             for all compact semisimple Lie groups, for the tensor reps
+             of U(m/n), SU(m/n) and OSp(m/n) and the spin and ordinary
+             reps of S(n). See also  STD_OneDprep and  STD_Qfn.
+    Example:-
+	DP>
+           ->gr2so5sp4
+	Groups are SO(5) * Sp(4)
+	DP>
+           ->std[31^3 * 31^3]
+	- [3]<31>
+	DP>

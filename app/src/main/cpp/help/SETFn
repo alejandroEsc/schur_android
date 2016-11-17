@@ -1,0 +1,39 @@
+ SETFn
+     Format:- Setf N
+      Modes:-DPM,REP,SFN
+ Description:-Used to set function N, N = 1... 50, during a
+             SCHUR session. It prompts you to enter each line with
+             a "=-". STop signals completion. If you make a mistake
+             there is no way of editing the function. Either retype the
+             function or save it on disk with WRFNTODisk and use
+             a text editor to correct it. If editing a function saved on
+             disk remember to make the last line STop (with a carriage
+             return). For an extensive discussion see the tutorial on
+             writing functions. 
+    Example:-DP>
+           ->setfn1
+	=-
+           ->rem evaluates the sfn outer product sv1.sv2
+	=-
+           ->sfn
+	=-
+           ->enter sv1
+	=-
+           ->enter sv2
+	=-
+           ->o sv1,sv2
+	=-
+           ->stop
+	DP>
+           ->fn1
+	Schur Function Mode
+	enter sv1
+	->21
+	enter sv2
+	->2^2
+	{43} + {421} + {3^2 1} + {32^2} + {321^2} + {2^3 1}
+	SFN>
+
+NOTES:No verification is made on what is typed inside a function 
+so be careful. Moreover if you call another function inside a
+function, no return is made to the caller function.

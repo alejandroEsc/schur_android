@@ -1,0 +1,11 @@
+ F_TO_HsymmFn
+     Format:-F_To_H EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of forgotten symmetric functions
+             f_{\lambda} and transforms them into a list of homogeneous
+             symmetric functions h_{\mu}.
+    Example:-
+             SFN>
+           ->f_to_h 21
+             - 3h_{3} + h_{21}
+             SFN>

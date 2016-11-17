@@ -1,0 +1,5 @@
+ EXITmode
+     Format:- EXIT
+      Modes:-REP, SFN, BRM
+ Description:-Returns the user to the DPMode from any other mode.
+

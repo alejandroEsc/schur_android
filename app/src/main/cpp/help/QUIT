@@ -1,0 +1,5 @@
+ QUIT
+     Format:- QUIT
+      Modes:- REP, BRM, SFN
+ Description:-Ends the current session. Closes and saves any LOGfiles
+             still open.

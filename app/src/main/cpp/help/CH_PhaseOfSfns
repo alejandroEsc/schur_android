@@ -1,0 +1,9 @@
+ CH_PhaseOfSfns
+     Format:-Ch_P EXPR
+      Modes:-SFN
+ Description:-Multiplies each coefficient in EXPR by (-1)^omega where omega
+             is the weight of the associated partition in EXPR.
+    Example:-SFN>
+           ->ch_p 321-2.21+3.2
+	{321} + 2{21} + 3{2}
+	SFN>

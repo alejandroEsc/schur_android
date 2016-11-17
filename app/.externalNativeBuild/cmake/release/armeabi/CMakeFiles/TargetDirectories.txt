@@ -1,0 +1,3 @@
+/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
+/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/native-schur-lib.dir

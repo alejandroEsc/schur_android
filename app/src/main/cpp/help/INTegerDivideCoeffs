@@ -1,0 +1,14 @@
+ INTegerDivideCoeffs
+     Format:- Int INTEGER EXPR
+      Modes:-DPM, REP, SFN
+ Description:-Divides the coefficients in EXPR by the
+             INTEGER. Gives an error message if the
+              coefficients are not 0 mod INTEGER.
+    Example:-
+             SFN>
+           ->!288.543 + !12.4321 + !48.321 - !72.21
+             288{543} + 12{4321} + 48{321} - 72{21}
+             SFN>
+           ->int 12 last
+             24{543} + {4321} + 4{321} - 6{21}
+             SFN>

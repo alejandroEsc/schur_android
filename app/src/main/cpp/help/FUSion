@@ -1,0 +1,29 @@
+ FUSion
+     Format:- Fus INTEGER EXPR
+      Modes:-REP
+ Description:-The INTEGER, which should be positive, is the level of an
+ 	     affine representation, and EXPR a list of irreps of either 
+	     SU(n) or Sp(n). In the case of SU(n) the group should be set 
+	     as U(n) and the irreps given in mixed form. It is assumed 
+	     that the irreps are either standard or have been made standard 
+	     with the operation STD. For further details see Cummins, 
+	     J.Phys.A:Math.Gen. 24,391-400(1991).
+   Examples:-REP>
+           ->gr sp10
+	Group is Sp(10)
+	REP>
+           ->std532^6
+	- <532^3>
+	REP>
+           ->fus 3 last
+	<3^2 2^3>
+	REP>
+           ->gr u8
+	Group is U(8)
+	REP>
+           ->std 7632^31;982^41
+	{7631;9821}
+	REP>
+           ->fus 10 last
+	{43^2 1;6521}
+	REP>

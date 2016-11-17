@@ -1,0 +1,9 @@
+ O_PfnProduct
+     Format:- O_P EXPR1, EXPR2
+      Modes:- SFN
+ Description:- Forms the outer product of two lists of P-functions.
+    Example:- SFN>
+           ->o_p 321,42
+	P_{741} + P_{732} + P_{651} + 2P_{642} + P_{6321} + P_{543} 
+	+ P_{5421}
+	SFN>

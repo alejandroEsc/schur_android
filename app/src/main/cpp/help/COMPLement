@@ -1,0 +1,16 @@
+ COMPLement
+
+     Format:- COMPLement INTEGER1, INTEGER2, EXPR
+      Modes:-SFN
+ Description:- INTEGER1 should be greater than or equal to greatest number
+               of parts of any partition in EXPR, while INTEGER2 should be 
+	       greater than or equal to the largest part of any partition in EXPR. 
+ 	       (Otherwise an error message appears). Each partition in EXPR is
+	       then replaced by its complement with respect to 
+	       INTEGER1^INTEGER2. Thus, given that the above conditions on
+	       these integers are satisfied, then COMPL M,N,EXPR is equivalent
+	       to SKew M^N,EXPR, complete with multiplicities.
+    Example:-SFN>
+           ->compl 6, 4, 321 -2.2+31^5
+	- 2{4^5 2} + {4^3 321} + {3^5 1}
+	SFN>

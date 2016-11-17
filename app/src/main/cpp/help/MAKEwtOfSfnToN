@@ -1,0 +1,14 @@
+ MAKEwtOfSfnToN
+     Format:- Make INTEGER EXPR
+      Modes:-SFN
+ Description:-Takes each partition in EXPR and makes each one up to weight
+             INTEGER by inserting an appropriate first part and then returns a 
+	     standardised list. Useful in going from reduced notation for S(N)
+             to a specific value of INTEGER.
+    Example:-SFN>
+           ->make 10 421+32+31+2^3
+	{631} + {532} + {42^3}
+	SFN>
+	   ->make 8 421+32+31+2^3
+	{431} + {3^2 2} - {32^2 1} + {2^4}
+	SFN>

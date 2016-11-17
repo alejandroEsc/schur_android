@@ -1,0 +1,23 @@
+ HALLpolynomialProduct
+     Format:- Hall SFN, INTEGER
+      Modes:-SFN
+ Description:-Forms the product of a single Hall-Littlewood polynomial, for
+             arbitrary variable t, corresponding to the partition associated
+	     with SFN with the Hall-Littlewood polynomial involving a single
+             part INTEGER. The resulting coefficients are given as an array
+	     of integers a,b,c... displayed as (abc...). Each integer x
+	     corresponds to (1 - t^x).
+             The polynomial constructed from (abc...) must be divided by
+	     (1 - t). The implementation is based on Macdonald's "Symmetric
+	     Functions and Hall Polynomials" page 113 §3.8.
+	     An error is indicated if INTEGER is entered with more than one part
+    Example:-SFN>
+           ->hall 32^21,3
+	(1){62^2 1} +(1){5321} +(31){52^3} +(21){52^2 1^2} +(1){432^2} 
+	+(21){4321^2} +(31){42^3 1} +(2){3^2 2^2 1}
+	SFN>
+
+NOTES:
+(31){52^3} -> (1 - t^3){52^3}
+where for example {52^3} is interpreted as the HL-polynomial 
+corresponding to the partition (52^3) etc.

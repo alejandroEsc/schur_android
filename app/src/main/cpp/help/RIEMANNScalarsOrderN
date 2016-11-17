@@ -1,0 +1,13 @@
+ RIEMANNScalarsOrderN
+     Format:- RiemannS SFN
+      Modes:-SFN
+ Description:-Takes a single S-function and replaces each part p by {p2}.
+             If {p2} occurs k times then the plethysm {p2} \otimes {k}
+             is formed. The resulting lists are combined via the
+             Littlewood-Richardson rule and all partitions involving odd
+             parts discarded. Thus {42^2} becomes {42}.({2^2} \otimes {2}).
+    Example:- SFN>
+           ->riemanns 42^2
+	{86} + 2{842} + {82^3} + 2{6^2 2} + 2{64^2} + 6{642^2} + 2{62^4} 
+	+ 2{4^3 2} + 2{4^2 2^3} + {42^5}
+             SFN>

@@ -1,0 +1,11 @@
+ M_TImesSfnProduct
+     Format:- M_Ti EXPR1,EXPR2
+      Modes:- SFN
+ Description:-Evaluates the product of a list of monomial symmetric functions
+             (EXPR1) and a list of S-functions (EXPR2) to produce a list
+             of S-functions.
+    Example:-SFN>
+           ->m_ti 21-1,3+1^2
+	{51} + {42} - {41^2} - {4} + {321} + {32} - 2{31^3} + {31^2} 
+	- {31} - {2^2 1} - {21^3} - {21} - 2{1^5} - {1^3}
+	SFN>

@@ -1,0 +1,8 @@
+ SB_DEBUG
+     Format:-SB_DEBUG [TRUE|FALSE]
+      Modes:-DPM, REP, SFN
+    Description:- When TRUE, SCHUR results are shown with some intermediate
+	(ugly) results to help on debugging the code. Use with caution,
+	since it can be very verbose. The default value is set as FALSE.
+
+NOTES:	few commands are concerned by this debugging actually.

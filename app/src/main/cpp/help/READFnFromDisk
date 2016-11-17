@@ -1,0 +1,15 @@
+ READFnFromDisk
+     Format:-ReadF INTEGER 'filename'
+      Modes:-DPM,REP,SFN
+ Description:-Reads function INTEGER (=N),  N = 1... 20, from a disk file
+             'filename'. Whilst reading the function from disk a "=-" 
+	     will appear for each line read.
+    Example:-DP>
+           ->readf 1 'test.fn'
+             =-
+             =-
+             =-
+             .
+             .
+             =-
+             DP>

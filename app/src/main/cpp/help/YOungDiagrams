@@ -1,0 +1,18 @@
+ YOungDiagrams
+     Format:-YO EXPR
+      Modes:-SFN
+ Description:-Draws on the screen the frames corresponding to the Sfns
+             in EXPR. Multiplicities appear above each frame except for
+             multiplicity 1. The empty frame corresponding to {0} appears
+             as a dot. Each cell of a frame is represented by a circle.
+   Example:- SFN>
+           ->42+41^2+3^2+2.321+31^3+2^3+2^2 1^2
+	{42} + {41^2} + {3^2} + 2{321} + {31^3} + {2^3} + {2^2 1^2}
+	SFN>
+           -> yo last
+	                 2
+	OOOO  OOOO  OOO  OOO  OOO  OO  OO
+	OO    O     OOO  OO   O    OO  OO
+	      O          O    O    OO  O
+	                      O        O
+	SFN>

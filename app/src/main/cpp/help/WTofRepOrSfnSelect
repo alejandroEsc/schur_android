@@ -1,0 +1,16 @@
+ WTofRepOrSfnSelect
+     Format:- Wt grno, INTEGER, EXPR   (DPM)
+              Wt INTEGER, EXPR         (REP, SFN)
+      Modes:-DPM, REP, SFN
+ Description:-In the DPMode if INTEGER is positive then this command returns
+             all terms in EXPR which are of weight INTEGER or less for the grno.
+             If INTEGER is negative then the command returns all terms in 
+             EXPR which are of weight INTEGER for the grno exactly.
+             In the REP or SFN modes if INTEGER is positive then this command 
+             returns all terms in EXPR which are of weight INTEGER or less.
+             If INTEGER is negative then the command returns all terms in 
+             EXPR which are of weight INTEGER exactly.
+    Example:- SFN>
+           ->wt6 outer21^2,21+2+1
+	{41^2} + {321} + {31^3} + {31^2} + {2^2 1^2} + {2^2 1} + {21^3}
+        SFN>

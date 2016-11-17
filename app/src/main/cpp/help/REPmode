@@ -1,0 +1,5 @@
+ REPmode
+     Format:-Rep
+      Modes:-DPM, SFN
+ Description:-Allows the user to go from the DPMode and SFNmode into
+             the REPmode.

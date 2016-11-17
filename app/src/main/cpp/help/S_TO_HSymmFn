@@ -1,0 +1,10 @@
+ S_TO_HsymmFn
+     Format:-S_To_H EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of S-functions and transforms them into a
+             list of homogeneous symmetric functions h_{\mu}.
+    Example:-
+             SFN>
+           ->s_to_h 21
+             - h_{3}  + h_{21}
+             SFN>

@@ -1,0 +1,20 @@
+ SB_CUt
+     Format:-Sb_Cu n
+      Modes:-DPM, REP, SFN
+ Description:- Gives an output in power notation whenever multiplicities
+              of a part of a partition exceeds n and  Sb_POW TRUE. The
+              default value is set as n = 1.
+    Example:-
+             SFN>
+           ->sb_pow false
+             SFN>
+           ->32211111+321111111+222111111
+             {32211111} + {321111111} + {222111111}
+             SFN>
+           ->sb_pow true
+             SFN>
+           ->sb_cut 3
+             SFN>
+           ->last
+             {3221^5} + {321^7} + {2221^6}
+	     SFN>

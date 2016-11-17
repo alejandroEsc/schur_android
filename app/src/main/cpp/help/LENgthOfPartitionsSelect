@@ -1,0 +1,20 @@
+ LENgthOfPartitionsSelect
+     Format:- Len grno,INTEGER, EXPR  (DPM)
+              Len INTEGER, EXPR       (REP, SFN)
+      Modes:-DPM, REP, SFN
+ Description:-In the DPMode if INTEGER is positive all terms in  EXPR which
+             are of length INTEGER or less for grno are returned. 
+             If INTEGER is negative then all terms in EXPR having a 
+             number of parts equal to the magnitude of INTEGER for grno
+             are returned.
+             In the REP or SFN mode If INTEGER is positive then all terms 
+             in  EXPR which are of length INTEGER or less are returned. 
+             If INTEGER  is negative then all terms in EXPR having a 
+             number of parts equal to the magnitude of INTEGER are returned.
+    Example:- SFN>
+           ->len 3,321+321^2 + 31 +2^6+2
+             {321} + {31} + {2}
+             SFN>
+           ->len -3,last
+             {321}
+             SFN>

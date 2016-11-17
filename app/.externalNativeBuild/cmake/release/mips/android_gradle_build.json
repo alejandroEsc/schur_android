@@ -1,0 +1,275 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/escobar/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips --target clean"
+	],
+	"libraries" : 
+	{
+		"native-schur-lib-Release-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native-schur-lib",
+			"buildCommand" : "/Users/escobar/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips --target native-schur-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/FillCommandTab.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/FrontPage.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/Getl.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/ReadWrite.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/Scanck.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/apropos.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/bignums.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/branch.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/dimensions.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/g.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/gr.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/hivesLRcoef.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/init.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/label.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/loadcomList.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/m.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/mymalloc.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/outerskew.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/outerskew_inc.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/q1.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/q2.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/r.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/rib_to_s.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/s.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/s0.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/s1.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/s2.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/s3.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/s4.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/s5.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/s6.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/s7.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/s8.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/savecomList.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/schur.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/sets_mgmt.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/skew.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/tableaux.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/utils.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/escobar/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_schur_lib_EXPORTS -I/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/src/main/cpp/schurenativelib  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/escobar/Development/schur_android/app/src/main/cpp/schurnativelib/write.c",
+					"workingDirectory" : "/Users/escobar/Development/schur_android/app/.externalNativeBuild/cmake/release/mips"
+				}
+			],
+			"output" : "/Users/escobar/Development/schur_android/app/build/intermediates/cmake/release/obj/mips/libnative-schur-lib.so",
+			"toolchain" : "17703104735175634855"
+		}
+	},
+	"toolchains" : 
+	{
+		"17703104735175634855" : 
+		{
+			"cCompilerExecutable" : "/Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/escobar/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

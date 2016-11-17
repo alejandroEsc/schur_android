@@ -1,0 +1,4 @@
+ Zero
+	Format:- Z
+	 Modes:- REP, DPM, SFN
+     Description:- Returns a null expression. Can be used in initialisation of stored variables

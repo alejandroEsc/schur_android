@@ -1,0 +1,11 @@
+ F_TO_SsymmFn
+     Format:-F_TO_S EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of forgotten symmetric functions
+             f_{\lambda} and transforms them into a list of $S-$functions
+             {\mu}.
+    Example:-
+             SFN>
+           ->f_to_s 21
+	- 2{3} + {21}
+             SFN>

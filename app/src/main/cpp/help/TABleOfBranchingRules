@@ -1,0 +1,70 @@
+ TABleOfBranchingRules
+      Format:-
+        Modes:- DP
+ Description:- Table A.2 : Table of branching rules
+
+NOTES:
+Rule No. Group         Subgroup             Rule and number(s) in BRM 
+1 :-  U(n)            ->  O(n)                       1,n   
+2 :-  U(n)            ->  Sp(n)                      2,n
+3 :-  U(n)            ->  U(n-1)                     3,n
+4 :-  U(m+n)          ->  U(m) x U(n)                4,m,n
+5 :-  U(mn)           ->  U(m) x U(n)                5,m,n
+6 :-  U(2k)           ->  U(k)                       6,2k
+7 :-  U(n)            ->  SO(3)                      7,n
+8 :-  SU(m+n)         ->  U(1) x SU(m) x SU(n)       8,m,n
+9 :-  Sp(2k)          ->  SO(3)                      9,2k
+10:-  Sp(2k)          ->  U(1) x SU(k)              10,2k
+11:-  Sp(2k)          ->  SU(2) x SO(k)             11,2k
+12:-  Sp(2k)          ->  U(2k)                     12,2k
+13:-  Sp(2k)          ->  U(k)                      13,2k
+14:-  Sp(2m+2n)       ->  Sp(2m) x Sp(2n)           14,2m,2n
+15:-  Sp(2mn)         ->  Sp(2m) x O(n)             15,2m,n
+16:-  S(m+n)          ->  S(m) x S(n)               16,m,n
+17:-  S(n)            ->  A(n)                      17,n
+18:-  O(n)            ->  S(n)                      18,n
+19:-  O(n)            ->  S(n+1)                    19,n
+20:-  O(n)            ->  U(n)                      20,n
+21:-  O(2k) or O(2k+1)->  U(k)                      21,2k (or 2k+1)    
+22:-  O(m+n)          ->  O(m) x O(n)               22,m,n
+23:-  O(mn)           ->  O(m) x O(n)               23,m,n
+24:-  O(4mn)          ->  Sp(2m) x Sp(2n)           24,2m,2n
+25:-  SO(2k+1)        ->  SO(3)                     25,2k+1
+26:-  SO(2k) or SO(2k+1)->  U(1) x SU(k)            26,2k (or 2k+1)
+27:-  SO(m+n)         ->  SO(m) x SO(n)             27,m,n
+28:-  SO(4)           ->  SU(2) x SU(2)             28
+29:-  SO(4)           ->  SO(3)                     29
+30:-  SO(7)           ->  SO(3)                     30
+31:-  SO(7)           ->  G(2)                      31
+32:-  SU(m/n)         ->  U(1) x SU(m) x SU(n)      32,m,n
+33:-  SU(m+n/p+q)     ->  U(1) x SU(m/p) x SU(n/q)  33,m,p,n,q
+34:-  U(mn+pq/mq+np)  ->  U(m/p) x U(n/q)           34,m,p,n,q
+35:-  OSp(m/n)        ->  O(m) x Sp(n)              35,m,n (n even)
+36:-  Sp(2n,R)        ->  U(n)                      36,2n
+37:-  Sp(2n,R)        ->  Sp(2,R) x O(n)            37,2n
+38:-  Sp(2nk,R)       ->  Sp(2n,R) x O(k)           38,2n,k
+39:-  Mp(2nk)         ->  Sp(2n,R) x O(k)           39,2n,k
+40:-  G(2)            ->  SU(3)                     40
+41:-  G(2)            ->  SO(3)                     41
+42:-  G(2)            ->  SO(7)                     42
+43:-  F(4)            ->  SO(9)                     43
+44:-  E(6)            ->  SU(2) x SU(6)             44
+45:-  E(6)            ->  U(1) x SO( 10)            45
+46:-  E(6)            ->  G(2)                      46
+47:-  E(7)            ->  SU(8)                     47
+48:-  E(7)            ->  U(1) x E(6)               48
+49:-  E(8)            ->  SU(9)                     49
+50:-  E(8)            ->  SO(16)                    50
+51:-  E(8)            ->  SU(2) x E(7)              51        
+52:-  E(8)            ->  SU(3) x E(6)              52
+53:-  SU(27)          ->  E(6)                      53
+54:-  SU(56)          ->  E(7)                      54
+55:-  SU(248)         ->  E(8)                      55
+56:-  E(6)            ->  F(4)                      56
+57:-  F(4)            ->  SO(3) x G(2)              57
+58:-  E(6)            ->  SU(3) x G(2)              58
+59:-  SO(26)          ->  F(4)                      59
+60:-  E(8)            ->  F(4) x G(2)               60
+61:-  SO^*(2n)        ->  U(n)                      61,2n
+62:-  U(n)            ->  S(n)                      62,n
+63:-  S(8)            ->  L168                      63

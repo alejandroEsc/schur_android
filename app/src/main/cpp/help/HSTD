@@ -1,0 +1,17 @@
+ HSTD
+     Format:- HSTD REP
+      Modes:- REP
+ Description:- HSTD is a Boolean that gives the result as "True" if rep is a 
+               highly standard irrep of the group Sp(2n,R) or SO*(2n). 
+	       For all other groups an error mesage results.
+      Example:-REP>
+             ->gr spr6
+               Group is Sp(6,R)
+               REP>
+             ->hstd 3;21
+               highlystandard =true
+               REP>            
+             ->hstd 2;32
+               highlystandard =false
+               REP> 
+    

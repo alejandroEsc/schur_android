@@ -1,0 +1,12 @@
+ QQSEries
+     Format:-Qqse  SERIES
+      Modes:-SFN
+ Description:-Gives a polynomial expansion of the first SETLIMit terms in
+            powers of q of the sum of all supersymmetric S-functions in
+	    SERIES with their variables specialised to (q,q^2,.../q,q^2,...)".
+            SERIES is any one of the S-function series A,B,C,D,E,F,G,H,L,M,P,Q.
+    Example:-SFN>
+           ->qqse b
+	1 +2q^2 +4q^3 +8q^4 +16q^5 +32q^6 +60q^7 +114q^8 +212q^9 +384q^10 
+	+692q^11 +1232q^12
+	SFN>

@@ -1,0 +1,20 @@
+ CASIMIRGeneralNthTrace
+     Format:-CasimirG INTEGER REP1, REP2
+      Modes:-REP
+ Description:- Calculates the trace of the INTEGER-th order Casimir invariant
+             for rep1 with respect to rep2. The command is available
+             for all the compact semisimple Lie groups.
+    Example:-REP>
+           ->gr e8
+             Group is E(8)
+             REP>
+           ->casimirg 2 21^7,21 
+             60**1*trace 2th order Casimir invariant is 96
+             REP>
+           ->casimirg 3 21,21
+             60**2*trace 3th order Casimir invariant is -36000
+             REP>
+
+NOTES: The output actually gives the Casimir invariant for REP2 with
+respect to REP1 since setting REP1=adjoint gives the same
+results as CASIMIRN.

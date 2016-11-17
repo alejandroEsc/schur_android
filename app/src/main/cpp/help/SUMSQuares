@@ -1,0 +1,13 @@
+ SUMSQuares
+     Format:-SUMSQ EXPR
+      Modes:-SFN
+ Description:-EXPR is a list of S-functions. The action of SUMSQuares is to
+             sum the Littlewood-Richardson squares of every S-function in 
+             EXPR.
+
+    Example:-SFN>
+           ->sumsq {2} + {1}
+             {4} + {31} + {2^2} + {2} + {1^2}
+             SFN>
+
+

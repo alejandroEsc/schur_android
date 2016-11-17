@@ -1,0 +1,11 @@
+ E_TO_SsymmFn
+     Format:- E_To_S EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of elementary symmetric functions
+             e_{\lambda} and transforms them into a list of Schur
+             symmetric functions.
+    Example:-
+             SFN>
+           ->e_to_s 21
+             {21} + {1^3}
+	     SFN>

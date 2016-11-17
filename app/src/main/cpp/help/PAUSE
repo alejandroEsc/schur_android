@@ -1,0 +1,5 @@
+ PAUSE
+     Format:- Pause
+      Modes:-DPM, REP, SFN
+ Description:-Halts operation until a key is pressed. Useful as an
+             interrupt in functions.

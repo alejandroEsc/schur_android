@@ -1,0 +1,6 @@
+ SETLIMit
+    Format:-SETLIMit INTEGER
+     Modes:-DPM, REP, SFN
+ Description:-Sets the variable SETLIMIT which is used in non-compact
+             group calculations. The default value has been set at 12.
+

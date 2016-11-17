@@ -1,0 +1,11 @@
+ F_TO_EsymmFn
+     Format:-F_To_E EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of forgotten symmetric functions
+             f_{\lambda} and transforms them into a list of elementary
+             symmetric functions e_{\mu}.
+    Example:-
+             SFN>
+           ->f_to_e 21
+             - 3e_{3} + 5e_{21} - 2e_{1^3}
+             SFN>

@@ -1,0 +1,12 @@
+ MUlt_CoeffByAnInt
+     Format:- Mu INTEGER EXPR
+      Modes:-DPM, REP, SFN
+ Description:-Multiplies the coefficient of each term in EXPR by INTEGER, 
+             either N or -N.
+    Example:- SFN>
+	     ->mu 7 2.321-3.21
+	14{321} - 21{21}
+	SFN>
+             ->mu -5 2.321-3.21
+	- 10{321} + 15{21}
+	SFN>

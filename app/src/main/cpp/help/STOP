@@ -1,0 +1,7 @@
+ Stop
+        Format:- stop
+         Modes:- BRM, DPM
+    Description:- In the BRMode  Stop causes a current sequence of
+                 branchings to be terminated and a request to the
+                 user to set a new branching rule. In setting functions
+                 Stop is always used to mark the end of a function.

@@ -1,0 +1,15 @@
+ RM_PARTSequalN
+     Format:-Rm_Parts N, EXPR
+      Modes:-REP, SFN
+ Description:-Removes from EXPR all partitions with any part equal to N.
+             If N = -1 then all partitions with any  odd part are removed
+             while if N = -2 then all partition with any even part are
+             removed.
+    Example:-
+             SFN>
+           ->rm_parts 2,4321+3^31+21+1^6
+             {3^3 1} + {1^6}
+             SFN>
+           ->rm_parts -1,42+321+421
+             {42}
+	     SFN>

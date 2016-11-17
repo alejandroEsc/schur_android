@@ -1,0 +1,23 @@
+ ONSCalar
+     Format:- Onsc EXPR1, EXPR2
+      Modes:- REP
+ Description:-EXPR1 and EXPR2 are to be treated as lists of O(N) tensor irreps.
+             Onscalar compares the two lists and for any common
+             pair of irreps forms the product of the multiplicities
+             and adds them, and then writes to screen  #  scalars =  .
+             This command was introduced in the enumeration of Weyl scalars.
+    Example:-REP>
+           ->gr o5
+	Group is O(5)
+	REP>
+           ->p 21,21
+	[42] + [41]# + [4] + [3^2] + 2[32]# + 3[31] + [3]# + 2[2^2] 
+	+ 3[21]# + 2[2] + 2[1^2] + [1]# + [0]
+	REP>
+           ->p 3,21
+	[51] + [42] + [41]# + [4] + [32]# + 2[31] + [2^2] + [21]# + [2] 
+	+ [1^2]
+	REP>
+           ->onsc p21,21 , p3,21
+	# of scalars = 20
+	REP>

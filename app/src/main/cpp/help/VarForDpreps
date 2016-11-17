@@ -1,0 +1,5 @@
+ VarForDpreps
+     Format:-V N
+      Modes:-DPM
+ Description:-Contains the DPrep variable N, (N = 1...50), set with
+             SETVarInDPmode. Used as the DPrep EXPR when required.

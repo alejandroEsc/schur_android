@@ -1,0 +1,9 @@
+ ATtachPartitionToSfn
+     Format:-AT PARTITION, EXPR
+      Modes:-SFN
+ Description:- Adds the parts of PARTITION to the corresponding parts of 
+               each term in EXPR, preserving their multiplicities.
+    Example:-SFN>
+           -> at321, 6 +2.321 -3.21^5
+	{921} + 2{642} - 3{5321^3}
+	SFN>

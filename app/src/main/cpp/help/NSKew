@@ -1,0 +1,12 @@
+ NSKew
+     Format:-Nsk INTEGER  EXPR1, EXPR2
+     Modes:- SFN
+     Description:-INTEGER should be a positive integer N. Then NSKEW skews
+                 EXPR1 by EXPR2 N times.
+     Example:-SFN>
+             ->nskew 2 432,21
+	4{3} + 8{21} + 2{1^3}
+	SFN>
+	      -> nskew 3 432,21 
+	8{0}
+	SFN>

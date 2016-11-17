@@ -1,0 +1,7 @@
+ SB_TexOutput
+     Format:- Sb_T [TRUE|FALSE]
+      Modes:- DPM, REP, SFN
+ Description:-Setting SB_T True forces output from all modes to be in
+             TeX format. The default is SB_T False which gives normal
+             output. See also COLumns as well as Appendix D Producing
+	     TeX Tables.

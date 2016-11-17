@@ -1,0 +1,11 @@
+ S_TO_QsymmFn
+
+     Format:-S_To_Q EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of S-functions of type S(x,-1) and transforms them into a list of Q-functions.
+    Example:-
+             SFN>
+           ->s_to_q 31
+              Q_{4} + Q_{31}
+             SFN>
+

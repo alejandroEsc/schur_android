@@ -1,0 +1,14 @@
+ RP_FirstPartBySpin
+     Format:-Rp_F grN EXPR (DPM)
+             Rp_F EXPR     (REP)
+      Modes:-DPM, REP
+ Description:-Removes the first part of each partition and replaces it
+             by a spin index
+    Example:-
+             DP>
+           ->gr2so5so7
+             Groups are SO(5) * SO(7)
+             DP>
+           ->rp_f gr1[21 * 321]
+             [s;1][321]
+             DP>

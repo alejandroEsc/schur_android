@@ -1,0 +1,14 @@
+ CONV_D_TO_Sfn
+     Format:-Conv_D_to_S EXPR
+      Modes:-SFN
+ Description:-Converts a list of DPreps into a list of S-functions.
+             N.B. It is assumed that the DPreps involve just one
+             group else an error message is given. Assumes the irreps
+             are of type tensor and do not have attached labels or
+             mixed notation. Useful for doing plethysms in the DPMode.
+             The inverse of converting a list of S-functions into a
+             list of DPreps is accomplished by [conv_s_to_r EXPR] where
+             EXPR can be a list of S-functions or an S-function
+             expression that generates a list of S-functions. e.g.
+             [conv_s_to_r 21+321] or [conv_s_to_r o21,21] etc.
+

@@ -1,0 +1,19 @@
+FRACAHnotation
+     Format:- FRACAH  EXPR
+      Modes:-REP
+ Description:-Converts an EXPR of  Racah G(2) irreps labelled in Racah's 
+ 	     SO(3) basis into a list of G(2) irreps labelled in the SU(3)
+             basis. See also RACAHnotation.
+    Example:-REP>
+           ->gr g2
+	Group is G(2)
+             REP>
+           ->prod31,21
+	(52) + (41) + (4) + 2(31) + (3) + (2) + (1)
+             REP>
+           ->racah last
+	(4) + (32) + (31) + (3) + 2(21) + (2) + (1)
+             REP>
+           ->fracah last
+	(52) + (41) + (4) + 2(31) + (3) + (2) + (1)
+             REP>

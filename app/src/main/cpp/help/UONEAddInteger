@@ -1,0 +1,17 @@
+ UONEAddInteger
+     Format:-UOneA INTEGER  gr grN EXPR  (DPM)
+             UOneA INTEGER EXPR          (REP)
+      Modes:-DPM, REP
+ Description:-Adds the INTEGER on to the first part of each partition in EXPR.
+             While specifically introduced for the group U(1) it may be used
+	     for any group.
+    Example:-DP>
+           ->gr2u1su5
+	Groups are U(1) * SU(5)
+	DP>
+           ->[~6*21]
+	{-6}{21}
+	DP>
+           ->uoneadd8gr1last
+	{2}{21}
+	DP>

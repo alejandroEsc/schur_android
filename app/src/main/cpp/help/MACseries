@@ -1,0 +1,34 @@
+ MACseries
+     Format:- Mac INTEGER SERIES 
+      Modes:- DPM
+ Description:- Used to generate both the q-dependent version of the
+ 	     Littlewood S-function series and the Macdonald denominator
+	     series expansion for affine Kac-Moody algebras. The group
+	     is first set as U(1)*G, where G=U(n) for S-function
+	     series, and is any one of the classical groups for the
+	     affine case. The group U(1) is used to store the exponent
+	     of q, which is w/2 for the series a,b,c,d, and w in all
+	     other cases, where w is the weight of the partition
+	     specifying each irrep of G. The SERIES is entered as a
+	     single character a,b,...,z, and INTEGER is the maximum
+	     weight of the irrep of U(1), that is the maximum exponent
+	     of q, that is required.  
+    Example:-DP>
+    	     ->gr2 u1 u8
+	Groups are   U(1) * U(8)
+	DP>
+    	     -> mac 6 g 
+	{6}{321} + {5}{31^2} - {4}{2^2} - {3}{21} + {1}{1} + {0}{0}
+	DP>
+             -> mac 6 c 
+	- {3}{41^2} - {3}{3^2} + {2}{31} - {1}{2} + {0}{0}
+	DP>
+	     -> gr2 u1 sp4
+	Groups are   U(1) * Sp(4)
+	DP>
+	     -> mac 6 c 
+	- {3}<41^2> - {3}<3^2> + {2}<31> - {1}<2> + {0}<0>
+	DP>
+	     -> std last
+	- {3}<3^2> + {2}<31> - {1}<2> + {0}<0>
+	DP>

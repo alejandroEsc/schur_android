@@ -1,0 +1,18 @@
+ SNchar
+     Format:-SN INTEGER  SFN
+      Modes:-SFN
+ Description:-SFN is a partition of N labelling a class of S(N). SNchar
+             computes all non-zero characteristics for all irreps of S(N)
+             indexed by  partitions of N into not more than INTEGER parts. 
+    Example:-SFN>
+           ->sn2,9^38^47^365431
+	{99 } - {97 2} + {96 3} + {95 4} +  3{92 7} + 4{91 8} + {90 9} 
+	- {89 10 } + 3{88 11 } + 7{87 12 } + 3{86 13 } + 3{85 14 } 
+	+ 12{84 15 } + 14{83 16 } + 6{82 17 } + 4{81 18 } + 11{80 19 } 
+	+ 20{79 20 } + 16{78 21 } + 15{77 22 } + 26{76 23 } + 34{75 24 } 
+	+ 21{74 25 } + 12{73 26 } + 29{72 27 } + 39{71 28 } + 36{70 29 } 
+	+ 32{69 30 } + 42{68 31 } + 49{67 32 } + 38{66 33 } + 23{65 34 } 
+	+ 37{64 35 } + 53{63 36 } + 46{62 37 } + 36{61 38 } + 41{60 39 } 
+	+ 43{59 40 } + 32{58 41 } + 25{57 42 } + 22{56 43 } + 35{55 44 } 
+	+ 31{54 45 } + 16{53 46 } + 8{52 47 } + 10{51 48 } + 5{50 49 }
+	SFN> 

@@ -1,0 +1,22 @@
+ CLASS
+     Format:-CLASS EXPR
+      Modes:-SFN
+ Description:-EXPR should be a list of partitions without multiplicity, and
+ 	      the output of CLASS EXPR is the same list but now with 
+	      multiplicities equal to the number of elements in the
+	      corresponding class of the symmetric group of the appropriate 
+	      weight. For partitions of weight N>13 overflow can be expected.
+              To obtain results for N > 13 you may determine the number of 
+	      elements in a single class using the command HCLass as shown
+	      below.
+    Example:-SFN>
+           ->class 5 + 41 + 32 + 31^2 + 2^21 + 21^3 + 1^5
+	24{5} + 30{41} + 20{32} + 20{31^2} + 15{2^2 1} + 10{21^3} + {1^5}
+	SFN>
+	    ->class 32+42
+	90{42} + 20{32}
+	SFN>
+           ->hclass!15 5 
+	Number of elements in the class = 
+	32438693442355200
+	SFN> 

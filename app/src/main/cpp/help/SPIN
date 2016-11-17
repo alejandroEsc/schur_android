@@ -1,0 +1,5 @@
+ SPin
+ 	Format:-
+	Modes:- REP, DPM
+     Description:- This command is only used in conjunction with the command
+      CONV_S_TO_Rep and is discussed under that heading.

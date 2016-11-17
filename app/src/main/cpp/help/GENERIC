@@ -1,0 +1,16 @@
+GENERIC 
+      Format:-GENERIC REP1 and REP2
+       Modes:- REP
+  Description:-REP1 and REP2 should be standard irreps of Sp(2n,R). Then 
+               this command gives the output generic=true if the product 
+	       of REP1 and REP2 is generic, otherwise the return is 
+	       generic=false. For further details see F. Toumazet, in 
+	       "Symmetry,  Spectroscopy and SCHUR", Proc. Brian G. Wybourne 
+	       Conference, UMK Publ, Torun, Poland, 2006 pp????".
+    Example:-REP>
+           ->gr spr8  
+             Group is Sp(8,R)
+             REP>
+          -> generic 2;1,5;62
+	     generic=true
+             REP>            

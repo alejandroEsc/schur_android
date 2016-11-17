@@ -1,0 +1,7 @@
+ SB_PROGress
+     Format:-Sb_prog TRUE:FALSE
+      Modes:-DPM, REP, SFN
+ Description:-When Sb_prog is true, during a calculation
+             the cursor rotates indicating the calculation is progressing.
+             Setting Sb_prog FALSE turns off the display. Default value is FALSE.
+

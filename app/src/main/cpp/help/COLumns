@@ -1,0 +1,6 @@
+ COLumns
+     Format:-COL [INTEGER]
+      Modes:-DPM, REP, SFN
+ Description:-Used to set tables in TeX. INTEGER is the desired
+             number of columns. The default value has been set at 5. 
+             See also SB_Tex.

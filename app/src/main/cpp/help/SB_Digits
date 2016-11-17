@@ -1,0 +1,20 @@
+ SB_Digits
+     Format:-Sb_D [TRUE:FALSE]
+      Modes:-DPM, REP, SFN
+ Description:-Sb_D is a Boolean flag. When  Sb_D is TRUE all numbers
+             occurring in a partition (or a multiplicity) are assumed
+             to be single digits. The default is set TRUE. When partition
+             numbers are larger than 9 they are entered by prefixing them
+             with a ! and terminating with a space. When Sb_D is FALSE
+             every number must be followed by a space. 
+	Example:- SFN>
+	->sb_d
+       True
+	-> !137.!15!13!11 975
+       137{15 13 11 975}
+	-> sb_d f
+	-> last
+       137{15 13 11 975}
+	-> 137.15 13 11 9 7 5
+       137{15 13 11 975}
+       SFN>

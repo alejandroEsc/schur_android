@@ -1,0 +1,10 @@
+ SERIESTErmsThatSkew
+     Format:-SeriesTe EXPR, Series
+      Modes:-SFN
+ Description:-Finds all the members of the SFN Series which can skew 
+             with the SFN EXPR.
+    Example:-
+             SFN>
+           ->serieste 321 + 21,m
+             {3} + {2} + {1} + {0}
+             SFN>

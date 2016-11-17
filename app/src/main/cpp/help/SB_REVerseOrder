@@ -1,0 +1,18 @@
+ SB_REVerseOrder
+      Format:- SB_REV [TRUE|FALSE]
+       Modes:- DPM, REP, SFN
+ Description:- Schur outputs lists of expressions that are normally
+        sorted antilexicographically with respect to the alphabet 
+	1,2,3,.... In the DPMode this will be for the
+        first group in the list of product groups. Setting
+        SB_REVerseOrder TRUE reverses this order. FALSE is the
+        default setting.
+    Example:-SFN>
+       ->   o21,3
+            {51} + {42} + {41^2} + {321}
+            SFN>
+       ->   sb_rev true
+            SFN>
+       ->   last
+            {321} + {41^2} + {42} + {51}
+            SFN>  

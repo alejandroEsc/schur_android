@@ -1,0 +1,11 @@
+ H_TO_MsymmFn
+     Format:-H_To_M EXPR
+      Modes:-SFN
+ Description:-Treats EXPR as a list of homogeneous symmetric functions
+             h_{\lambda} and transforms them into a list of monomial
+             symmetric functions m_{\mu}.
+    Example:-
+             SFN>
+           ->h_to_m 21
+             m_{3}  + 2m_{21}  + 3m_{1^3}
+             SFN>

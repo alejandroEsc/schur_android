@@ -1,0 +1,7 @@
+ SB_RDnotation
+     Format:- Sb_Rd [TRUE|FALSE]
+      Modes:- SFN
+ Description:-Putting  Sb_Rd TRUE forces SCHUR  to output reduced notation.
+             The default setting is  Sb_Rd FALSE. The user should always
+             return  Sb_Rd to its default setting to ensure correct 
+             results.

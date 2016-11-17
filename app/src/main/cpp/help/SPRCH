@@ -1,0 +1,23 @@
+ SPRCH
+ 
+     Format:-SPRCH EXPR
+      Modes:-REP
+ Description:-EXPR generates  a list of irreps of the group Sp(2n,R). 
+             SPRCH acts on every member of the list to replace any
+             irrep involving an n-part partition by an equivalent irrep
+             involving fewer than n-parts while those involvingpartitions
+             involving fewer than n-parts are left unchanged. The group
+             must be set as Sp(2n,R), all other group settings produce
+             an error message.
+   Example:- REP>
+           ->gr spr6
+	Group is Sp(6,R)
+	REP>
+           ->wt6p2;21,3;1 
+	<5(51)> + 2<5(42)> + 2<5(41^2)> + <5(3^2)> + 3<5(321)> + <5(31)> 
+	+ <5(2^3)> + <5(2^2)> + <5(21^2)> 
+	REP>
+          -> sprch last
+	<7(0)> + 2<6(3)> + 3<6(21)> + <6(1)> + <5(51)> + 2<5(42)> 
+	+ <5(3^2)> + <5(31)> + <5(2^2)>
+	REP>

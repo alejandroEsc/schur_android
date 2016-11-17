@@ -1,0 +1,16 @@
+ RM_FirstPartOfSfn
+     Format:-Rm_F EXPR
+      Modes:-SFN
+ Description:-Removes the first part of an S-function.
+             Used in the reduced notation for the
+             irreps of the symmetric group S(n).
+    Example:- SFN>
+           ->o 21,21
+	{42} + {41^2} + {3^2} + 2{321} + {31^3} + {2^3} + {2^2 1^2}
+	SFN>
+           ->rm_f last
+	<3> + <2^2> + <21^2> + 2<21> + <2> + <1^3> + <1^2>
+	SFN>
+           ->make6last
+	{42} + {41^2} + {3^2} + 2{321} + {31^3} + {2^3} + {2^2 1^2}
+	SFN>

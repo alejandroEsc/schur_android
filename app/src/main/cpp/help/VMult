@@ -1,0 +1,17 @@
+ VMult
+     Format:-VM INTEGER, EXPR1, EXPR2
+      Modes:-SFN
+ Description:- EXPR1 and EXPR2 are two lists of monomials in INTEGER
+              variables. Their product is output as a list of monomials.
+              The two monomials (x_1 - x_3) and (x_2 - x_3) are represented
+              as {1} - {001} and {01} - {001} and their product
+              x_1x_2 -x_2x_3 - x_1x_3 + x_3^2
+              is represented as
+              {11} - {011} - {101} + {002}
+              See also GENprod and SMON
+    Example:-SFN>
+           ->vm3,1-001,01-001
+	{1^2} - {101} - {01^2} + {0^2 2}
+
+             SFN>
+

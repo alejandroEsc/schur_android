@@ -1,0 +1,17 @@
+ RAISEInverseOp
+     Format:-RaiseI s,EXPR (s = +/- 1)
+      Modes:-SFN
+ Description:-RaiseI is the operator \prod_{i<j} 1/(1 + sR_{ij}) with
+              the phase s taking values +1 or -1, while R_{ij} acts
+	      on each term {\lambda} in EXPR by increasing the ith component
+	      of lambda by 1 and decreasing the jth component by 1. In each
+	      case s=1 and s=-1, the final expression is subject to S-function
+	      standardisation.
+    Example:-
+	SFN>
+           ->raisei 1,321
+	{6} - {41^2} - {3^2} + {321}
+	SFN>
+           ->raisei -1,321
+	{6} + 2{51} + 2{42} + {41^2} + {3^2} + {321}
+	SFN>

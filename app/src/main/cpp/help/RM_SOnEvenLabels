@@ -1,0 +1,5 @@
+ RM_SOnEvenLabel
+     Format:- Rm_so EXPR
+      Modes:-REP
+ Description:-Removes the labels +/- from SO(2k) irreps . Used in
+             Functions.

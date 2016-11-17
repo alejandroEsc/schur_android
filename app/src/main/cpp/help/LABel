@@ -1,0 +1,17 @@
+ LABel
+     Format:-Conv_S_to_R OPERATION(s) EXPR
+      Modes:-REP, DPM
+ Description:- The command LABel is used in conjunction with CONV_S_TO_Rep.
+             The "LABel CHAR" OPERATION adds a one character label CHAR
+             to EXPR as in SO(2k) (e.g. a -> [a]+)
+             More than one operation may be used at a time.
+             The hierachy is SPin, LABel, MIXedTensorReps.
+             The resulting irreps may not be in standard form in which case
+	     the command STD should be used.
+    Example:-REP>
+           ->gr so6
+             Group is SO(6)
+             REP>
+           ->conv_s_to_r spin label - outer2,1
+             [s;3]- + [s;21]-
+             REP>

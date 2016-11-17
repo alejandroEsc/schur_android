@@ -1,0 +1,13 @@
+ COMPare
+     Format:-Comp EXPR1,EXPR2
+      Modes:-REP, SFN
+ Description:-Compares EXPR1 and EXPR2, and creates a new EXPR in which 
+              the multiplicities are the products of the corresponding 
+	      multiplicities in EXPR1 and EXPR2.
+    Example:-SFN>
+	->comp 42 +31, 5 +4.42 +5.31 +2^2
+	4{42} + 5{31}
+	SFN>
+	->comp 2.42 -3.31, 5 +4.42 +5.31 +2.2^2
+	8{42} - 15{31}
+	SFN>

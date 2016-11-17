@@ -1,0 +1,5 @@
+ WRfnToScreen
+     Format:- Wr N
+      Modes:-DPM, REP, SFN 
+ Description:-Displays the contents of function N, (N = 1...50) on the
+             screen.

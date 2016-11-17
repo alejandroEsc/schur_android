@@ -1,0 +1,8 @@
+ ABSolutevalue
+     Format:- Abs EXPR
+      Modes:-SFN
+ Description:-Makes all coefficients positive in EXPR.
+    Example:-SFN>
+           -> abs 3.21^3-2.321+42-1^5
+	{42} + 2{321} + 3{21^3} + {1^5}
+	SFN>

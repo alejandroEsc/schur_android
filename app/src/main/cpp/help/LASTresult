@@ -1,0 +1,20 @@
+ LASTresult
+     Format:- Last
+      Modes:-DPM, REP, SFN
+ Description:- LAST is the result of the last operation and is used as
+              an expression.
+    Example:-SFN>
+           ->o 2,2
+             {4} + {31} + {2^2}
+             SFN>
+           ->last
+             {4} + {31} + {2^2}
+             SFN>
+           ->sk last,2
+             3{2} + {1^2}
+             SFN>
+
+NOTES: Some commands, such as DIM, produce an output that is neither
+an EXPR, nor a REP nor an SFN. In such cases, usually 
+indicated by some text, such as "dimension=124702", LAST may
+give zero or a previous EXPR, REP or SFN.

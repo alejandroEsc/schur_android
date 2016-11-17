@@ -1,0 +1,23 @@
+ SPONModify
+     Format:-SPONM EXPR
+      Modes:-REP
+ Description:-SPONModify acts on the Sp(2n,R) irreps contained in EXPR
+             and applies the O(k) modification rule to produce a new
+             list of Sp(2n,R) irreps with associate labels '#' where
+             appropriate. NB. The group must be set as Sp(2n,R) - other
+             group settings will produce an error message. See also
+             ASSOCiate.
+    Example:-REP>
+           ->gr spr8
+	Group is Sp(8,R)
+	REP>
+           ->p1;11,1;11
+	<2(10 2)> + <2(10 1^2)> + <2(84)> + <2(82)> + <2(81^2)> + <2(6^2)> 
+	+ <2(64)> + <2(62)> + <2(61^2)> + <2(4^2)> + <2(42)> + <2(41^2)> 
+	+ <2(2^2)> + <2(21^2)> + <2(1^4)>
+             REP>
+           ->sponm last
+	<2(10 2)> + <2(10 )># + <2(84)> + <2(82)> + <2(8)># + <2(6^2)> 
+	+ <2(64)> + <2(62)> + <2(6)># + <2(4^2)> + <2(42)> + <2(4)># 
+	+ <2(2^2)> + <2(2)># + <2(0)>#
+	REP>

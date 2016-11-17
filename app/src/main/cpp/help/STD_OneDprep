@@ -1,0 +1,22 @@
+ STD_OneDprep
+     Format:-Std_O  gr grN EXPR
+      Modes:-DPM
+ Description:-Standardises the irreps of the group grN leaving all other
+             group irreps unmodified.
+    Example:-
+             DP>
+           ->gr3su2su3so6
+             Groups are   SU(2) * SU(3) * SO(6)
+             DP>
+           ->[21*321*s21^4+]
+             {21}{321}[s;21^4]+
+             DP>
+           ->std_o gr1 last
+              {1}{321}[s;21^4]+
+             DP>
+           ->std_o gr2 last
+             {1}{21}[s;21^4]+
+             DP>
+           ->std_o gr3 last
+              - {1}{21}[s;21]-
+             DP>

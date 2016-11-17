@@ -1,0 +1,13 @@
+ SK_Qfn
+     Format:- Sk_Q EXPR1, EXPR2
+      Modes:-SFN
+ Description:-Forms the skew of the Q-functions in EXPR1 with those 
+             in EXPR2.
+    Example:-
+             SFN>
+           ->sk_q 4321,32
+             Q_{41}
+             SFN>
+           ->sk_q 4321,m
+             Q_{4321}  + Q_{432}  + Q_{431}  + Q_{421}  + Q_{321}
+	     SFN>
